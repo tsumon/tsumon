@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" role="img" aria-label="fox">
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -3; 0 0" dur="1.8s" repeatCount="indefinite"/>
+    <circle cx="40" cy="42" r="36" fill="#2A2A36"/>
+    <path d="M16 34 L12 8 L34 24 Z" fill="#E07A3D"/>
+    <path d="M64 34 L68 8 L46 24 Z" fill="#E07A3D"/>
+    <path d="M18 32 L16 14 L32 24 Z" fill="#F3C6B0"/>
+    <path d="M62 32 L64 14 L48 24 Z" fill="#F3C6B0"/>
+    <ellipse cx="40" cy="46" rx="24" ry="22" fill="#E07A3D"/>
+    <ellipse cx="24" cy="52" rx="9" ry="8" fill="#F5E6C8"/>
+    <ellipse cx="56" cy="52" rx="9" ry="8" fill="#F5E6C8"/>
+    <ellipse cx="40" cy="57" rx="8" ry="6.5" fill="#F5E6C8"/>
+    <ellipse cx="40" cy="55" rx="3" ry="2.2" fill="#2A2A36"/>
+    <circle cx="31" cy="44" r="3.6" fill="#2A2A36"/>
+    <circle cx="49" cy="44" r="3.6" fill="#2A2A36"/>
+    <circle cx="32" cy="43" r="1.1" fill="#F5F5F3"/>
+    <circle cx="50" cy="43" r="1.1" fill="#F5F5F3"/>
+    <circle cx="40" cy="68" r="3.2" fill="#159A9C"/>
+  </g>
+</svg>

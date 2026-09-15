@@ -1,20 +1,193 @@
-<p align="center">
-  <img src="./assets/hero.svg" width="100%" alt="tsumon：循环提醒、本地 Agent 工具，给开源仓库修能合的洞。">
-</p>
+<!-- 动态打字效果 -->
+<div align="center">
+  <div>
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=159A9C&width=520&center=true&size=27&lines=print(%22Hello%2C%20tsumon%22)" alt="Python Hello tsumon" />
+  </div>
+  <div>
+      <img src="https://readme-typing-svg.demolab.com?font=Noto+Sans+SC&pause=1000&color=159A9C&width=680&center=true&size=22&lines=%E5%86%99%E8%83%BD%E8%B7%91%E7%9A%84%E4%B8%9C%E8%A5%BF%E3%80%82%E7%BB%99%E5%BC%80%E6%BA%90%E4%BF%AE%E8%83%BD%E5%90%88%E7%9A%84%E6%B4%9E%E3%80%82" alt="写能跑的东西。给开源修能合的洞。" />
+  </div>
+</div>
 
-写循环提醒和本地 Agent 工具。最近在给 [CowAgent](https://github.com/zhayujie/CowAgent) 这类仓库修控制台和通道上的真实问题。图解书在 [看得见的大模型](https://tsumon.github.io)。
+<!-- 头像 -->
+<div align="center">
+<img width="80" src="./assets/fox.svg" alt="fox" />
+<img src="https://avatars.githubusercontent.com/u/47944351?v=4" align="center" height="180" width="180" alt="tsumon" style="border-radius: 50%;" />
+<img width="80" src="./assets/fox.svg" alt="fox" />
+</div>
 
-## 自己的东西
+<!-- 贪吃蛇：GitHub Actions 每天生成到 output 分支 -->
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake animation" />
+</picture>
+</div>
+<br/>
 
-| 项目 | 一句话 |
-| --- | --- |
-| [循环提醒](https://github.com/tsumon/reminder-app-ios) · [Android](https://github.com/tsumon/reminder-app-android) | 到期确认才进下一周期；没确认就 1h→4h→12h→24h 再响。 |
-| [Suite](https://github.com/tsumon/suite) | Windows 托盘：F1 截图、任务栏网速、透明和深浅色。 |
-| [StreamDock](https://github.com/tsumon/StreamDock) | 单二进制 Emby 反代面板。明文导入导出，独立流量页。 |
-| [skill-mcp](https://github.com/tsumon/skill-mcp) | 本地 stdio MCP。最多绑 3 个 `SKILL.md`，token 预算加不了名额。 |
-| [汽车售后客服](https://github.com/tsumon/auto-cs-agent-sft-dpo) | Qwen2.5-7B 的 SFT + DPO。真正能上线的是推理期约束层。 |
-| [AgentFlow](https://github.com/tsumon/agentflow) | Plan → Execute → Review。三个 agent 按序办事。 |
-| [看得见的大模型](https://tsumon.github.io) | 图解书。工程铺地，数学捡石，模型走路。 |
+<!-- 联系方式 -->
+## Connect with me
+<div align="center">
+<a href="https://github.com/tsumon" target="_blank">
+<img src="https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github" alt="github" height="40" style="margin-right: 10px;" />
+</a>
+ &nbsp;&nbsp;&nbsp;
+<a href="https://tsumon.github.io" target="_blank">
+<img src="https://img.shields.io/badge/-%E7%9C%8B%E5%BE%97%E8%A7%81%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B-159A9C?style=flat-square&logo=markdown&logoColor=white" alt="看得见的大模型" height="40" style="margin-right: 10px;" />
+</a>
+</div>
+
+<!-- 个人打卡记录 -->
+## GitHub Streak
+<div align="center"> <img src="https://streak-stats.demolab.com/?user=tsumon" alt="GitHub streak stats" /> </div>
+<div>&nbsp;</div>
+
+<!-- star 语言占比等统计 -->
+## GitHub Stats
+<div align="center">
+  <img height="137px" src="https://github-stats-extended.vercel.app/api?username=tsumon&hide_title=true&hide_border=true&show_icons=true&line_height=21" alt="GitHub stats" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tsumon&hide_title=true&hide_border=true&layout=compact&langs_count=6" alt="Top languages" />
+</div>
+<div>&nbsp;</div>
+
+<!-- 奖杯墙 -->
+## GitHub Trophies
+<div align="center"> <img src="https://trophy.ryglcloud.net/?username=tsumon" alt="GitHub profile trophies" /> </div>
+<div>&nbsp;</div>
+
+<!-- 贡献曲线图 -->
+## GitHub Contribution
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tsumon&theme=github_dark" />
+  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tsumon&theme=github" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tsumon&theme=github" alt="GitHub contribution summary" />
+</picture>
+
+<div>&nbsp;</div>
+
+<!-- 3D个人贡献资料图 -->
+<picture>
+  <img width="100%" src="https://raw.githubusercontent.com/tsumon/tsumon/output/profile-3d-contrib/profile-green-animate.svg" alt="3D contribution profile" />
+</picture>
+
+<div>&nbsp;</div>
+
+<!-- 技能表 -->
+## My Skill Set
+<table width="100%"><tr><td valign="top" width="33%">
+
+### App
+<div align="center">
+<a href="https://developer.apple.com/swift/" target="_blank"><img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg" alt="Swift" height="50" /></a>
+<a href="https://kotlinlang.org/" target="_blank"><img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg" alt="Kotlin" height="50" /></a>
+<a href="https://learn.microsoft.com/dotnet/csharp/" target="_blank"><img style="margin: 10px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" alt="C#" height="50" /></a>
+<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>
+</div>
+
+</td><td valign="top" width="33%">
+
+### Agent
+<div align="center">
+<a href="https://www.python.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/python-original.svg" alt="Python" height="50" /></a>
+<a href="https://www.typescriptlang.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="TypeScript" height="50" /></a>
+<a href="https://go.dev/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/go-original.svg" alt="Go" height="50" /></a>
+</div>
+
+</td><td valign="top" width="33%">
+
+### Tools
+<div align="center">
+<a href="https://git-scm.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="Git" height="50" /></a>
+<a href="https://www.linux.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/linux-original.svg" alt="Linux" height="50" /></a>
+<a href="https://www.docker.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/docker-original-wordmark.svg" alt="Docker" height="50" /></a>
+</div>
+
+</td></tr></table>
+
+<!-- 项目介绍 -->
+## My Projects
+<div align="center">
+
+<table width="100%">
+  <tr>
+    <th width="22%">项目名称</th>
+    <th width="58%">项目描述</th>
+    <th width="10%">Stars</th>
+    <th width="10%">Forks</th>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/tsumon/reminder-app-ios" target="_blank">循环提醒</a><br /><a href="https://github.com/tsumon/reminder-app-android" target="_blank">iOS · Android</a></td>
+    <td>到期确认才进下一周期；没确认就 1h→4h→12h→24h 再响。</td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/stars/tsumon/reminder-app-ios?style=social" alt="reminder-app-ios stars"/>
+    </td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/forks/tsumon/reminder-app-ios?style=social" alt="reminder-app-ios forks"/>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/tsumon/suite" target="_blank">Suite</a></td>
+    <td>Windows 托盘：F1 截图、任务栏网速、透明和深浅色。</td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/stars/tsumon/suite?style=social" alt="suite stars"/>
+    </td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/forks/tsumon/suite?style=social" alt="suite forks"/>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/tsumon/StreamDock" target="_blank">StreamDock</a></td>
+    <td>单二进制 Emby 反代面板。明文导入导出，独立流量页。</td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/stars/tsumon/StreamDock?style=social" alt="StreamDock stars"/>
+    </td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/forks/tsumon/StreamDock?style=social" alt="StreamDock forks"/>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/tsumon/skill-mcp" target="_blank">skill-mcp</a></td>
+    <td>本地 stdio MCP。最多绑 3 个 <code>SKILL.md</code>，token 预算加不了名额。</td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/stars/tsumon/skill-mcp?style=social" alt="skill-mcp stars"/>
+    </td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/forks/tsumon/skill-mcp?style=social" alt="skill-mcp forks"/>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/tsumon/auto-cs-agent-sft-dpo" target="_blank">汽车售后客服</a></td>
+    <td>Qwen2.5-7B 的 SFT + DPO。真正能上线的是推理期约束层。</td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/stars/tsumon/auto-cs-agent-sft-dpo?style=social" alt="auto-cs-agent-sft-dpo stars"/>
+    </td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/forks/tsumon/auto-cs-agent-sft-dpo?style=social" alt="auto-cs-agent-sft-dpo forks"/>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/tsumon/agentflow" target="_blank">AgentFlow</a></td>
+    <td>Plan → Execute → Review。三个 agent 按序办事。</td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/stars/tsumon/agentflow?style=social" alt="agentflow stars"/>
+    </td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/forks/tsumon/agentflow?style=social" alt="agentflow forks"/>
+    </td>
+  </tr>
+  <tr>
+    <td><a href="https://tsumon.github.io" target="_blank">看得见的大模型</a></td>
+    <td>图解书。工程铺地，数学捡石，模型走路。</td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/stars/tsumon/tsumon.github.io?style=social" alt="tsumon.github.io stars"/>
+    </td>
+    <td>
+      <img width="150" src="https://img.shields.io/github/forks/tsumon/tsumon.github.io?style=social" alt="tsumon.github.io forks"/>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ## 合进别人的仓库
 
