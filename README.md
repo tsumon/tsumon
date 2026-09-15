@@ -25,6 +25,12 @@
 </div>
 <br/>
 
+<div align="center">
+<a href="https://tsumon.github.io" target="_blank">
+<img src="https://img.shields.io/badge/-%E7%9C%8B%E5%BE%97%E8%A7%81%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B-159A9C?style=flat-square&logo=markdown&logoColor=white" alt="看得见的大模型" height="40" />
+</a>
+</div>
+
 <!-- 个人打卡记录 -->
 ## GitHub Streak
 <div align="center"> <img src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-streak.svg" alt="GitHub streak stats" /> </div>
