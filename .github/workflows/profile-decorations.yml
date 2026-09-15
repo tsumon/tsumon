@@ -18,7 +18,7 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
     steps:
       - uses: actions/checkout@v5
 
@@ -29,6 +29,41 @@ jobs:
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Generate streak stats
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        with:
+          options: user=${{ github.repository_owner }}&theme=dark
+          path: dist/github-streak.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2.0.2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&hide_title=true&hide_border=true&show_icons=true&line_height=21&theme=dark
+          path: dist/github-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2.0.2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&hide_title=true&hide_border=true&layout=compact&langs_count=6&theme=dark
+          path: dist/github-top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate contribution summary cards
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          THEME: github_dark
+          AUTO_PUSH: false
+          UTC_OFFSET: 8
 
       - name: Generate 3D contribution profile
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
@@ -41,6 +76,13 @@ jobs:
           mkdir -p dist/profile-3d-contrib
           if [ -d profile-3d-contrib ]; then
             cp -R profile-3d-contrib/. dist/profile-3d-contrib/
+          fi
+          if [ -f profile-summary-card-output/github_dark/0-profile-details.svg ]; then
+            cp profile-summary-card-output/github_dark/0-profile-details.svg dist/profile-details.svg
+          fi
+          curl -fsSL --max-time 25 "https://trophy.ryglcloud.net/?username=${{ github.repository_owner }}" -o dist/github-trophies.svg || true
+          if [ -f dist/github-trophies.svg ] && ! grep -q "<svg" dist/github-trophies.svg; then
+            rm -f dist/github-trophies.svg
           fi
 
       - name: Publish to output branch

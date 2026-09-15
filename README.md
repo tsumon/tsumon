@@ -39,29 +39,25 @@
 
 <!-- 个人打卡记录 -->
 ## GitHub Streak
-<div align="center"> <img src="https://streak-stats.demolab.com/?user=tsumon" alt="GitHub streak stats" /> </div>
+<div align="center"> <img src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-streak.svg" alt="GitHub streak stats" /> </div>
 <div>&nbsp;</div>
 
 <!-- star 语言占比等统计 -->
 ## GitHub Stats
 <div align="center">
-  <img height="137px" src="https://github-stats-extended.vercel.app/api?username=tsumon&hide_title=true&hide_border=true&show_icons=true&line_height=21" alt="GitHub stats" />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=tsumon&hide_title=true&hide_border=true&layout=compact&langs_count=6" alt="Top languages" />
+  <img height="137px" src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-stats.svg" alt="GitHub stats" />
+  <img src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-top-langs.svg" alt="Top languages" />
 </div>
 <div>&nbsp;</div>
 
 <!-- 奖杯墙 -->
 ## GitHub Trophies
-<div align="center"> <img src="https://trophy.ryglcloud.net/?username=tsumon" alt="GitHub profile trophies" /> </div>
+<div align="center"> <img src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-trophies.svg" alt="GitHub profile trophies" /> </div>
 <div>&nbsp;</div>
 
 <!-- 贡献曲线图 -->
 ## GitHub Contribution
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tsumon&theme=github_dark" />
-  <source media="(prefers-color-scheme: light)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tsumon&theme=github" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=tsumon&theme=github" alt="GitHub contribution summary" />
-</picture>
+<img src="https://raw.githubusercontent.com/tsumon/tsumon/output/profile-details.svg" alt="GitHub contribution summary" />
 
 <div>&nbsp;</div>
 
