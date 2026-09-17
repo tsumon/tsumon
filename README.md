@@ -32,17 +32,30 @@
 
 <br />
 
+## Featured work
+
+<table width="100%">
+  <tr>
+    <td width="68%" valign="middle">
+      <h2><a href="https://tsumon.github.io">看得见的大模型</a></h2>
+      <p><strong>把大模型讲到能看懂，也讲到能动手。</strong><br />工程铺地，数学捡石，模型走路。</p>
+      <p><a href="https://tsumon.github.io">进入图解书 →</a></p>
+    </td>
+    <td width="32%" align="right" valign="middle">
+      <a href="https://tsumon.github.io">
+        <img src="https://img.shields.io/badge/-%E7%9C%8B%E5%BE%97%E8%A7%81%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B-159A9C?style=flat-square&logo=markdown&logoColor=white" alt="看得见的大模型" height="46" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br />
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake.svg" />
   <img src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
 </picture>
-
-<p align="center">
-  <a href="https://tsumon.github.io" target="_blank">
-    <img src="https://img.shields.io/badge/-%E7%9C%8B%E5%BE%97%E8%A7%81%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B-159A9C?style=flat-square&logo=markdown&logoColor=white" alt="看得见的大模型" height="40" />
-  </a>
-</p>
 
 ## Selected projects
 
