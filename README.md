@@ -111,9 +111,15 @@
   </tr>
   <tr>
     <td><a href="https://github.com/open-webui/open-webui" target="_blank">Open WebUI</a></td>
-    <td><code>Send now</code> 只发选中的排队消息，并修聊天树写坏。</td>
+    <td>简体中文 i18n 翻译改进。</td>
     <td></td>
-    <td><a href="https://github.com/open-webui/open-webui/pull/30030" target="_blank"><img src="https://img.shields.io/badge/review-30030-d4a72c?style=flat-square" alt="review 30030"/></a></td>
+    <td><a href="https://github.com/open-webui/open-webui/pull/30043" target="_blank"><img src="https://img.shields.io/badge/merged-30043-2ea44f?style=flat-square" alt="merged 30043"/></a></td>
+  </tr>
+  <tr>
+    <td><a href="https://github.com/processing/p5.js" target="_blank">p5.js</a></td>
+    <td>修复 p5.strands 单参数箭头函数解析，解决 <a href="https://github.com/processing/p5.js/issues/9180" target="_blank">#9180</a>。</td>
+    <td></td>
+    <td><a href="https://github.com/processing/p5.js/pull/9188" target="_blank"><img src="https://img.shields.io/badge/review-9188-d4a72c?style=flat-square" alt="review 9188"/></a></td>
   </tr>
 </table>
 
