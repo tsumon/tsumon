@@ -217,16 +217,16 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
 
 <table width="100%">
   <tr>
-    <td width="25%"><strong>Agent harness</strong></td>
-    <td>让 Plan → Execute → Review 变成可以观察、可以重试、可以交付的流程。</td>
+    <td width="260"><strong>Agent harness</strong></td>
+    <td width="800">让 Plan → Execute → Review 变成可以观察、可以重试、可以交付的流程。</td>
   </tr>
   <tr>
-    <td><strong>RAG / MCP</strong></td>
-    <td>把上下文、工具和 token 预算放回工程约束，而不是只停留在 demo。</td>
+    <td width="260"><strong>RAG / MCP</strong></td>
+    <td width="800">把上下文、工具和 token 预算放回工程约束，而不是只停留在 demo。</td>
   </tr>
   <tr>
-    <td><strong>Product edges</strong></td>
-    <td>智能客服、舆情分析、桌面工具，以及模型真正接触用户之后暴露出来的问题。</td>
+    <td width="260"><strong>Product edges</strong></td>
+    <td width="800">智能客服、舆情分析、桌面工具，以及模型真正接触用户之后暴露出来的问题。</td>
   </tr>
 </table>
 
