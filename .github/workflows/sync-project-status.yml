@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - name: Verify sync script
+        run: node --test scripts/update-project-status.test.mjs
       - name: Update README badges
         run: node scripts/update-project-status.mjs
         env:

@@ -1,0 +1,82 @@
+{
+  "exclude": [
+    "open-webui/open-webui#30029",
+    "open-webui/open-webui#30030",
+    "open-webui/open-webui#30120",
+    "open-webui/open-webui#30122"
+  ],
+  "entries": {
+    "zhayujie/CowAgent#3154": {
+      "repositoryName": "CowAgent",
+      "description": "控制台侧栏版本号一键源码更新，修 <a href=\"https://github.com/zhayujie/CowAgent/issues/3148\">#3148</a>。"
+    },
+    "open-webui/open-webui#30043": {
+      "repositoryName": "Open WebUI",
+      "description": "简体中文 i18n 翻译改进。"
+    },
+    "zhayujie/CowAgent#3161": {
+      "repositoryName": "CowAgent",
+      "description": "钉钉收文件，交给 agent。"
+    },
+    "zhayujie/CowAgent#3155": {
+      "repositoryName": "CowAgent",
+      "description": "Web / 桌面配置 MCP 和 skills，修 <a href=\"https://github.com/zhayujie/CowAgent/issues/3114\">#3114</a>。"
+    },
+    "zhayujie/CowAgent#3162": {
+      "repositoryName": "CowAgent",
+      "description": "钉钉流式 markdown 卡片。"
+    },
+    "openai/openai-agents-python#5013": {
+      "repositoryName": "OpenAI Agents Python",
+      "description": "tracing 导出认 <code>OPENAI_TRACING_INGEST_ENDPOINT</code>。"
+    },
+    "stablyai/orca#20594": {
+      "repositoryName": "orca",
+      "description": "Dashboard 别把还活着的 structured chat 当成死终端。"
+    },
+    "666ghj/BettaFish#718": {
+      "repositoryName": "BettaFish",
+      "description": "PDF 导出文件名防路径穿越。"
+    },
+    "processing/p5.js#9188": {
+      "repositoryName": "p5.js",
+      "description": "修复 p5.strands 单参数箭头函数解析，解决 <a href=\"https://github.com/processing/p5.js/issues/9180\">#9180</a>。"
+    },
+    "matplotlib/matplotlib#32355": {
+      "repositoryName": "Matplotlib",
+      "description": "修复 x tick label baseline 对齐问题。"
+    },
+    "matplotlib/matplotlib#32368": {
+      "repositoryName": "Matplotlib",
+      "description": "修复空 X 与空 tick_labels 导致的 boxplot 异常。"
+    },
+    "stablyai/orca#21451": {
+      "repositoryName": "orca",
+      "description": "修复 git username 探测超时时静默丢失前缀。"
+    },
+    "zhayujie/CowAgent#3190": {
+      "repositoryName": "CowAgent",
+      "description": "LLM 流式输出期间探测 steer inbox。"
+    },
+    "openai/openai-agents-js#1943": {
+      "repositoryName": "OpenAI Agents JS",
+      "description": "流式 abort reconciliation 补齐 computer_call。"
+    },
+    "anthropics/sandbox-runtime#567": {
+      "repositoryName": "sandbox-runtime",
+      "description": "区分 whichSync 超时与二进制不存在。"
+    },
+    "open-webui/open-webui#30123": {
+      "repositoryName": "Open WebUI",
+      "description": "持久化 admin settings 中的 OAuth blocked groups。"
+    },
+    "OpenHands/OpenHands#17410": {
+      "repositoryName": "OpenHands",
+      "description": "README Node.js 版本与 engines.node 对齐。"
+    },
+    "huggingface/huggingface_hub#4900": {
+      "repositoryName": "Hugging Face Hub",
+      "description": "将 concepts/git_vs_http 翻译为简体中文。"
+    }
+  }
+}

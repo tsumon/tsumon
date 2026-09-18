@@ -102,7 +102,7 @@ These are the things I keep close: small enough to understand, useful enough to 
 
 ## Open-source contribution log
 
-Real issues, real review queues, real CI. Sorted by outcome: merged → in review → closed. Status badges are synced from GitHub every day.
+Real issues, real review queues, real CI. Entries are discovered from my external GitHub PRs and sorted by outcome, then repository name. Status badges are synced from GitHub every day.
 
 <table width="100%">
   <tr>
@@ -115,56 +115,101 @@ Real issues, real review queues, real CI. Sorted by outcome: merged → in revie
     <td colspan="3"><strong>MERGED</strong> <sub>landed upstream</sub></td>
   </tr>
   <tr>
-              <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
-              <td>控制台侧栏版本号一键源码更新，修 <a href="https://github.com/zhayujie/CowAgent/issues/3148">#3148</a>。</td>
-              <td><a href="https://github.com/zhayujie/CowAgent/pull/3154"><img src="https://img.shields.io/badge/merged-3154-2ea44f?style=flat-square" alt="merged 3154"/></a></td>
-            </tr>
+        <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
+        <td>控制台侧栏版本号一键源码更新，修 <a href="https://github.com/zhayujie/CowAgent/issues/3148">#3148</a>。</td>
+        <td><a href="https://github.com/zhayujie/CowAgent/pull/3154"><img src="https://img.shields.io/badge/merged-3154-2ea44f?style=flat-square" alt="merged 3154"/></a></td>
+      </tr>
   <tr>
-              <td><a href="https://github.com/open-webui/open-webui">Open WebUI</a></td>
-              <td>简体中文 i18n 翻译改进。</td>
-              <td><a href="https://github.com/open-webui/open-webui/pull/30043"><img src="https://img.shields.io/badge/merged-30043-2ea44f?style=flat-square" alt="merged 30043"/></a></td>
-            </tr>
+        <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
+        <td>钉钉收文件，交给 agent。</td>
+        <td><a href="https://github.com/zhayujie/CowAgent/pull/3161"><img src="https://img.shields.io/badge/merged-3161-2ea44f?style=flat-square" alt="merged 3161"/></a></td>
+      </tr>
   <tr>
-              <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
-              <td>钉钉收文件，交给 agent。</td>
-              <td><a href="https://github.com/zhayujie/CowAgent/pull/3161"><img src="https://img.shields.io/badge/merged-3161-2ea44f?style=flat-square" alt="merged 3161"/></a></td>
-            </tr>
+        <td><a href="https://github.com/open-webui/open-webui">Open WebUI</a></td>
+        <td>简体中文 i18n 翻译改进。</td>
+        <td><a href="https://github.com/open-webui/open-webui/pull/30043"><img src="https://img.shields.io/badge/merged-30043-2ea44f?style=flat-square" alt="merged 30043"/></a></td>
+      </tr>
   <tr>
     <td colspan="3"><strong>IN REVIEW</strong> <sub>awaiting maintainer review</sub></td>
   </tr>
   <tr>
-              <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
-              <td>Web / 桌面配置 MCP 和 skills，修 <a href="https://github.com/zhayujie/CowAgent/issues/3114">#3114</a>。</td>
-              <td><a href="https://github.com/zhayujie/CowAgent/pull/3155"><img src="https://img.shields.io/badge/review-3155-d4a72c?style=flat-square" alt="review 3155"/></a></td>
-            </tr>
+        <td><a href="https://github.com/666ghj/BettaFish">BettaFish</a></td>
+        <td>PDF 导出文件名防路径穿越。</td>
+        <td><a href="https://github.com/666ghj/BettaFish/pull/718"><img src="https://img.shields.io/badge/review-718-d4a72c?style=flat-square" alt="review 718"/></a></td>
+      </tr>
   <tr>
-              <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
-              <td>钉钉流式 markdown 卡片。</td>
-              <td><a href="https://github.com/zhayujie/CowAgent/pull/3162"><img src="https://img.shields.io/badge/review-3162-d4a72c?style=flat-square" alt="review 3162"/></a></td>
-            </tr>
+        <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
+        <td>Web / 桌面配置 MCP 和 skills，修 <a href="https://github.com/zhayujie/CowAgent/issues/3114">#3114</a>。</td>
+        <td><a href="https://github.com/zhayujie/CowAgent/pull/3155"><img src="https://img.shields.io/badge/review-3155-d4a72c?style=flat-square" alt="review 3155"/></a></td>
+      </tr>
   <tr>
-              <td><a href="https://github.com/stablyai/orca">orca</a></td>
-              <td>Dashboard 别把还活着的 structured chat 当成死终端。</td>
-              <td><a href="https://github.com/stablyai/orca/pull/20594"><img src="https://img.shields.io/badge/review-20594-d4a72c?style=flat-square" alt="review 20594"/></a></td>
-            </tr>
+        <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
+        <td>钉钉流式 markdown 卡片。</td>
+        <td><a href="https://github.com/zhayujie/CowAgent/pull/3162"><img src="https://img.shields.io/badge/review-3162-d4a72c?style=flat-square" alt="review 3162"/></a></td>
+      </tr>
   <tr>
-              <td><a href="https://github.com/666ghj/BettaFish">BettaFish</a></td>
-              <td>PDF 导出文件名防路径穿越。</td>
-              <td><a href="https://github.com/666ghj/BettaFish/pull/718"><img src="https://img.shields.io/badge/review-718-d4a72c?style=flat-square" alt="review 718"/></a></td>
-            </tr>
+        <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
+        <td>LLM 流式输出期间探测 steer inbox。</td>
+        <td><a href="https://github.com/zhayujie/CowAgent/pull/3190"><img src="https://img.shields.io/badge/review-3190-d4a72c?style=flat-square" alt="review 3190"/></a></td>
+      </tr>
   <tr>
-              <td><a href="https://github.com/processing/p5.js">p5.js</a></td>
-              <td>修复 p5.strands 单参数箭头函数解析，解决 <a href="https://github.com/processing/p5.js/issues/9180">#9180</a>。</td>
-              <td><a href="https://github.com/processing/p5.js/pull/9188"><img src="https://img.shields.io/badge/review-9188-d4a72c?style=flat-square" alt="review 9188"/></a></td>
-            </tr>
+        <td><a href="https://github.com/huggingface/huggingface_hub">Hugging Face Hub</a></td>
+        <td>将 concepts/git_vs_http 翻译为简体中文。</td>
+        <td><a href="https://github.com/huggingface/huggingface_hub/pull/4900"><img src="https://img.shields.io/badge/review-4900-d4a72c?style=flat-square" alt="review 4900"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/matplotlib/matplotlib">Matplotlib</a></td>
+        <td>修复 x tick label baseline 对齐问题。</td>
+        <td><a href="https://github.com/matplotlib/matplotlib/pull/32355"><img src="https://img.shields.io/badge/review-32355-d4a72c?style=flat-square" alt="review 32355"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/matplotlib/matplotlib">Matplotlib</a></td>
+        <td>修复空 X 与空 tick_labels 导致的 boxplot 异常。</td>
+        <td><a href="https://github.com/matplotlib/matplotlib/pull/32368"><img src="https://img.shields.io/badge/review-32368-d4a72c?style=flat-square" alt="review 32368"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/openai/openai-agents-js">OpenAI Agents JS</a></td>
+        <td>流式 abort reconciliation 补齐 computer_call。</td>
+        <td><a href="https://github.com/openai/openai-agents-js/pull/1943"><img src="https://img.shields.io/badge/review-1943-d4a72c?style=flat-square" alt="review 1943"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/OpenHands/OpenHands">OpenHands</a></td>
+        <td>README Node.js 版本与 engines.node 对齐。</td>
+        <td><a href="https://github.com/OpenHands/OpenHands/pull/17410"><img src="https://img.shields.io/badge/review-17410-d4a72c?style=flat-square" alt="review 17410"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/open-webui/open-webui">Open WebUI</a></td>
+        <td>持久化 admin settings 中的 OAuth blocked groups。</td>
+        <td><a href="https://github.com/open-webui/open-webui/pull/30123"><img src="https://img.shields.io/badge/review-30123-d4a72c?style=flat-square" alt="review 30123"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/stablyai/orca">orca</a></td>
+        <td>Dashboard 别把还活着的 structured chat 当成死终端。</td>
+        <td><a href="https://github.com/stablyai/orca/pull/20594"><img src="https://img.shields.io/badge/review-20594-d4a72c?style=flat-square" alt="review 20594"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/stablyai/orca">orca</a></td>
+        <td>修复 git username 探测超时时静默丢失前缀。</td>
+        <td><a href="https://github.com/stablyai/orca/pull/21451"><img src="https://img.shields.io/badge/review-21451-d4a72c?style=flat-square" alt="review 21451"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/processing/p5.js">p5.js</a></td>
+        <td>修复 p5.strands 单参数箭头函数解析，解决 <a href="https://github.com/processing/p5.js/issues/9180">#9180</a>。</td>
+        <td><a href="https://github.com/processing/p5.js/pull/9188"><img src="https://img.shields.io/badge/review-9188-d4a72c?style=flat-square" alt="review 9188"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/anthropics/sandbox-runtime">sandbox-runtime</a></td>
+        <td>区分 whichSync 超时与二进制不存在。</td>
+        <td><a href="https://github.com/anthropics/sandbox-runtime/pull/567"><img src="https://img.shields.io/badge/review-567-d4a72c?style=flat-square" alt="review 567"/></a></td>
+      </tr>
   <tr>
     <td colspan="3"><strong>CLOSED</strong> <sub>not merged</sub></td>
   </tr>
   <tr>
-              <td><a href="https://github.com/openai/openai-agents-python">openai-agents-python</a></td>
-              <td>tracing 导出认 <code>OPENAI_TRACING_INGEST_ENDPOINT</code>。</td>
-              <td><a href="https://github.com/openai/openai-agents-python/pull/5013"><img src="https://img.shields.io/badge/closed-5013-d73a4a?style=flat-square" alt="closed 5013"/></a></td>
-            </tr>
+        <td><a href="https://github.com/openai/openai-agents-python">OpenAI Agents Python</a></td>
+        <td>tracing 导出认 <code>OPENAI_TRACING_INGEST_ENDPOINT</code>。</td>
+        <td><a href="https://github.com/openai/openai-agents-python/pull/5013"><img src="https://img.shields.io/badge/closed-5013-d73a4a?style=flat-square" alt="closed 5013"/></a></td>
+      </tr>
   <!-- contribution-log:rows:end -->
 </table>
 
