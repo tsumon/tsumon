@@ -53,7 +53,7 @@
   <img src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
 </picture>
 
-## Selected projects
+<h2 align="center">Selected projects</h2>
 
 These are the things I keep close: small enough to understand, useful enough to keep improving.
 
@@ -100,7 +100,7 @@ These are the things I keep close: small enough to understand, useful enough to 
   </tr>
 </table>
 
-## Open-source contribution log
+<h2 align="center">Open-source contribution log</h2>
 
 Real issues, real review queues, real CI. Entries are discovered from my external GitHub PRs and sorted by outcome, then repository name. Status badges are synced from GitHub every day.
 
@@ -213,7 +213,7 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
   <!-- contribution-log:rows:end -->
 </table>
 
-## Current direction
+<h2 align="center">Current direction</h2>
 
 <table width="100%">
   <tr>
