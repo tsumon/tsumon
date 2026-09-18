@@ -17,7 +17,7 @@
   <a href="https://github.com/tsumon?tab=stars"><img src="https://img.shields.io/badge/open%20source-166534?style=flat-square&logo=github&logoColor=white" alt="open source" /></a>
 </p>
 
-<table width="100%" style="width:100%;max-width:100%">
+<table width="100%">
   <tr>
     <td width="55%" valign="top">
       <strong>What I work on</strong><br />
@@ -57,11 +57,11 @@
 
 These are the things I keep close: small enough to understand, useful enough to keep improving.
 
-<table width="100%" style="width:100%;max-width:100%">
+<table width="100%">
   <tr>
-    <th width="23%">Project</th>
-    <th width="57%">What it does</th>
-    <th width="20%">Stars</th>
+    <th width="260">Project</th>
+    <th width="610">What it does</th>
+    <th width="180">Stars</th>
   </tr>
   <tr>
     <td><a href="https://github.com/tsumon/reminder-app-ios">循环提醒</a><br /><a href="https://github.com/tsumon/reminder-app-android">iOS · Android</a></td>
@@ -104,11 +104,11 @@ These are the things I keep close: small enough to understand, useful enough to 
 
 Real issues, real review queues, real CI. Entries are discovered from my external GitHub PRs and sorted by outcome, then repository name. Status badges are synced from GitHub every day.
 
-<table width="100%" style="width:100%;max-width:100%">
+<table width="100%">
   <tr>
-    <th width="22%">Repository</th>
-    <th width="58%">Contribution</th>
-    <th width="20%">Status</th>
+    <th width="260">Repository</th>
+    <th width="610">Contribution</th>
+    <th width="180">Status</th>
   </tr>
   <!-- contribution-log:rows:start -->
   <tr>
@@ -215,7 +215,7 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
 
 ## Current direction
 
-<table width="100%" style="width:100%;max-width:100%">
+<table width="100%">
   <tr>
     <td width="25%"><strong>Agent harness</strong></td>
     <td>让 Plan → Execute → Review 变成可以观察、可以重试、可以交付的流程。</td>
