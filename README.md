@@ -130,6 +130,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3161"><img src="https://img.shields.io/badge/merged-3161-2ea44f?style=flat-square" alt="merged 3161"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
+        <td>钉钉流式 markdown 卡片。</td>
+        <td><a href="https://github.com/zhayujie/CowAgent/pull/3162"><img src="https://img.shields.io/badge/merged-3162-2ea44f?style=flat-square" alt="merged 3162"/></a></td>
+      </tr>
+  <tr>
     <td colspan="3" align="center"><strong>IN REVIEW</strong> <sub>awaiting maintainer review</sub></td>
   </tr>
   <tr>
@@ -216,11 +221,6 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
         <td>Web / 桌面配置 MCP 和 skills，修 <a href="https://github.com/zhayujie/CowAgent/issues/3114">#3114</a>。</td>
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3155"><img src="https://img.shields.io/badge/review-3155-d4a72c?style=flat-square" alt="review 3155"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
-        <td>钉钉流式 markdown 卡片。</td>
-        <td><a href="https://github.com/zhayujie/CowAgent/pull/3162"><img src="https://img.shields.io/badge/review-3162-d4a72c?style=flat-square" alt="review 3162"/></a></td>
       </tr>
   <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
