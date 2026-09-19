@@ -93,7 +93,7 @@ export function renderContributionRows(entries) {
   for (const entry of sortContributions(entries)) {
     if (entry.status !== currentStatus) {
       const [label, description] = statusLabels[entry.status];
-      output.push(`  <tr>\n    <td colspan="3"><strong>${label}</strong> <sub>${description}</sub></td>\n  </tr>`);
+      output.push(`  <tr>\n    <td colspan="3" align="center"><strong>${label}</strong> <sub>${description}</sub></td>\n  </tr>`);
       currentStatus = entry.status;
     }
     output.push(renderContributionRow(entry));

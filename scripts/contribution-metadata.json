@@ -62,9 +62,21 @@
       "repositoryName": "OpenAI Agents JS",
       "description": "流式 abort reconciliation 补齐 computer_call。"
     },
+    "openclaw/openclaw#151811": {
+      "repositoryName": "OpenClaw",
+      "description": "握手时从客户端授予 markdownDetails，不再从 channel name 推断。"
+    },
     "anthropics/sandbox-runtime#567": {
       "repositoryName": "sandbox-runtime",
       "description": "区分 whichSync 超时与二进制不存在。"
+    },
+    "anthropics/sandbox-runtime#568": {
+      "repositoryName": "sandbox-runtime",
+      "description": "仅当正文实际变化时才保留 Content-Length 处理。"
+    },
+    "Tencent/WeKnora#3411": {
+      "repositoryName": "WeKnora",
+      "description": "修复 taxonomy 文件夹 / 条目嵌入时忽略 BATCH_EMBED_SIZE。"
     },
     "open-webui/open-webui#30123": {
       "repositoryName": "Open WebUI",

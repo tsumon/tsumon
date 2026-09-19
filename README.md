@@ -112,7 +112,7 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
   </tr>
   <!-- contribution-log:rows:start -->
   <tr>
-    <td colspan="3"><strong>MERGED</strong> <sub>landed upstream</sub></td>
+    <td colspan="3" align="center"><strong>MERGED</strong> <sub>landed upstream</sub></td>
   </tr>
   <tr>
         <td><a href="https://github.com/zhayujie/CowAgent">CowAgent</a></td>
@@ -130,7 +130,7 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/open-webui/open-webui/pull/30043"><img src="https://img.shields.io/badge/merged-30043-2ea44f?style=flat-square" alt="merged 30043"/></a></td>
       </tr>
   <tr>
-    <td colspan="3"><strong>IN REVIEW</strong> <sub>awaiting maintainer review</sub></td>
+    <td colspan="3" align="center"><strong>IN REVIEW</strong> <sub>awaiting maintainer review</sub></td>
   </tr>
   <tr>
         <td><a href="https://github.com/666ghj/BettaFish">BettaFish</a></td>
@@ -173,6 +173,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/openai/openai-agents-js/pull/1943"><img src="https://img.shields.io/badge/review-1943-d4a72c?style=flat-square" alt="review 1943"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/openclaw/openclaw">OpenClaw</a></td>
+        <td>握手时从客户端授予 markdownDetails，不再从 channel name 推断。</td>
+        <td><a href="https://github.com/openclaw/openclaw/pull/151811"><img src="https://img.shields.io/badge/review-151811-d4a72c?style=flat-square" alt="review 151811"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/OpenHands/OpenHands">OpenHands</a></td>
         <td>README Node.js 版本与 engines.node 对齐。</td>
         <td><a href="https://github.com/OpenHands/OpenHands/pull/17410"><img src="https://img.shields.io/badge/review-17410-d4a72c?style=flat-square" alt="review 17410"/></a></td>
@@ -203,7 +208,17 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/anthropics/sandbox-runtime/pull/567"><img src="https://img.shields.io/badge/review-567-d4a72c?style=flat-square" alt="review 567"/></a></td>
       </tr>
   <tr>
-    <td colspan="3"><strong>CLOSED</strong> <sub>not merged</sub></td>
+        <td><a href="https://github.com/anthropics/sandbox-runtime">sandbox-runtime</a></td>
+        <td>仅当正文实际变化时才保留 Content-Length 处理。</td>
+        <td><a href="https://github.com/anthropics/sandbox-runtime/pull/568"><img src="https://img.shields.io/badge/review-568-d4a72c?style=flat-square" alt="review 568"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora">WeKnora</a></td>
+        <td>修复 taxonomy 文件夹 / 条目嵌入时忽略 BATCH_EMBED_SIZE。</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/3411"><img src="https://img.shields.io/badge/review-3411-d4a72c?style=flat-square" alt="review 3411"/></a></td>
+      </tr>
+  <tr>
+    <td colspan="3" align="center"><strong>CLOSED</strong> <sub>not merged</sub></td>
   </tr>
   <tr>
         <td><a href="https://github.com/openai/openai-agents-python">OpenAI Agents Python</a></td>
