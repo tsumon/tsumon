@@ -75,11 +75,15 @@ function badgeFor(entry) {
   return `<img src="https://img.shields.io/badge/${entry.status}-${entry.number}-${color}?style=flat-square" alt="${entry.status} ${entry.number}"/>`;
 }
 
+function repositoryLabel(entry) {
+  return `<span>${escapeHtml(entry.owner)}/</span><br><strong>${escapeHtml(entry.repo)}</strong>`;
+}
+
 function renderContributionRow(entry) {
   const repositoryUrl = `https://github.com/${entry.owner}/${entry.repo}`;
   return [
     "  <tr>",
-    `        <td><a href="${repositoryUrl}">${escapeHtml(entry.repositoryName)}</a></td>`,
+    `        <td><a href="${repositoryUrl}">${repositoryLabel(entry)}</a></td>`,
     `        <td>${entry.description}</td>`,
     `        <td><a href="${entry.html_url}">${badgeFor(entry)}</a></td>`,
     "      </tr>",

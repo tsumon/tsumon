@@ -91,8 +91,9 @@ test("rows are grouped by outcome and sorted by repository name", () => {
 
   assert.ok(html.indexOf("MERGED") < html.indexOf("IN REVIEW"));
   assert.match(html, /<td colspan="3" align="center"><strong>MERGED<\/strong>/);
-  assert.ok(html.indexOf("Beta") < html.indexOf("Alpha"));
-  assert.ok(html.indexOf("Alpha") < html.indexOf("Zeta"));
+  assert.match(html, /<td><a href="https:\/\/github\.com\/beta\/project"><span>beta\/<\/span><br><strong>project<\/strong><\/a><\/td>/);
+  assert.ok(html.indexOf('href="https://github.com/beta/project"') < html.indexOf('href="https://github.com/alpha/project"'));
+  assert.ok(html.indexOf('href="https://github.com/alpha/project"') < html.indexOf('href="https://github.com/zeta/project"'));
 });
 
 test("pull discovery searches authored PRs and skips PRs in the profile owner's repositories", async () => {
