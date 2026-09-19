@@ -51,7 +51,7 @@ test("new external pull requests are included and ignored pull requests stay exc
     entries.map(({ repositoryName, number, status }) => ({ repositoryName, number, status })),
     [
       { repositoryName: "Alpha Project", number: 10, status: "merged" },
-      { repositoryName: "project", number: 3, status: "review" },
+        { repositoryName: "zeta/project", number: 3, status: "review" },
     ],
   );
   assert.equal(entries[0].description, "修复 Alpha 问题。");

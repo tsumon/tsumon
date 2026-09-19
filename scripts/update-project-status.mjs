@@ -63,7 +63,7 @@ export function buildContributionEntries(pulls, metadata = {}) {
           ...pull,
           description: details.description ?? escapeHtml(pull.title),
           html_url: htmlUrl,
-          repositoryName: details.repositoryName ?? pull.repo,
+          repositoryName: details.repositoryName ?? `${pull.owner}/${pull.repo}`,
           status: statusForPull(pull),
         };
       }),
