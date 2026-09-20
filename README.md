@@ -168,16 +168,6 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/huggingface/huggingface_hub/pull/4900"><img src="https://img.shields.io/badge/review-4900-d4a72c?style=flat-square" alt="review 4900"/></a></td>
       </tr>
   <tr>
-        <td><a href="https://github.com/matplotlib/matplotlib"><span>matplotlib/</span><br><strong>matplotlib</strong></a></td>
-        <td>修复 x tick label baseline 对齐问题。</td>
-        <td><a href="https://github.com/matplotlib/matplotlib/pull/32355"><img src="https://img.shields.io/badge/review-32355-d4a72c?style=flat-square" alt="review 32355"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/matplotlib/matplotlib"><span>matplotlib/</span><br><strong>matplotlib</strong></a></td>
-        <td>修复空 X 与空 tick_labels 导致的 boxplot 异常。</td>
-        <td><a href="https://github.com/matplotlib/matplotlib/pull/32368"><img src="https://img.shields.io/badge/review-32368-d4a72c?style=flat-square" alt="review 32368"/></a></td>
-      </tr>
-  <tr>
         <td><a href="https://github.com/openai/openai-agents-js"><span>openai/</span><br><strong>openai-agents-js</strong></a></td>
         <td>流式 abort reconciliation 补齐 computer_call。</td>
         <td><a href="https://github.com/openai/openai-agents-js/pull/1943"><img src="https://img.shields.io/badge/review-1943-d4a72c?style=flat-square" alt="review 1943"/></a></td>
@@ -213,11 +203,6 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/stablyai/orca/pull/21451"><img src="https://img.shields.io/badge/review-21451-d4a72c?style=flat-square" alt="review 21451"/></a></td>
       </tr>
   <tr>
-        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
-        <td>修复 taxonomy 文件夹 / 条目嵌入时忽略 BATCH_EMBED_SIZE。</td>
-        <td><a href="https://github.com/Tencent/WeKnora/pull/3411"><img src="https://img.shields.io/badge/review-3411-d4a72c?style=flat-square" alt="review 3411"/></a></td>
-      </tr>
-  <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
         <td>Web / 桌面配置 MCP 和 skills，修 <a href="https://github.com/zhayujie/CowAgent/issues/3114">#3114</a>。</td>
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3155"><img src="https://img.shields.io/badge/review-3155-d4a72c?style=flat-square" alt="review 3155"/></a></td>
@@ -231,9 +216,24 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
     <td colspan="3" align="center"><strong>CLOSED</strong> <sub>not merged</sub></td>
   </tr>
   <tr>
+        <td><a href="https://github.com/matplotlib/matplotlib"><span>matplotlib/</span><br><strong>matplotlib</strong></a></td>
+        <td>修复 x tick label baseline 对齐问题。</td>
+        <td><a href="https://github.com/matplotlib/matplotlib/pull/32355"><img src="https://img.shields.io/badge/closed-32355-d73a4a?style=flat-square" alt="closed 32355"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/matplotlib/matplotlib"><span>matplotlib/</span><br><strong>matplotlib</strong></a></td>
+        <td>修复空 X 与空 tick_labels 导致的 boxplot 异常。</td>
+        <td><a href="https://github.com/matplotlib/matplotlib/pull/32368"><img src="https://img.shields.io/badge/closed-32368-d73a4a?style=flat-square" alt="closed 32368"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/openai/openai-agents-python"><span>openai/</span><br><strong>openai-agents-python</strong></a></td>
         <td>tracing 导出认 <code>OPENAI_TRACING_INGEST_ENDPOINT</code>。</td>
         <td><a href="https://github.com/openai/openai-agents-python/pull/5013"><img src="https://img.shields.io/badge/closed-5013-d73a4a?style=flat-square" alt="closed 5013"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>修复 taxonomy 文件夹 / 条目嵌入时忽略 BATCH_EMBED_SIZE。</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/3411"><img src="https://img.shields.io/badge/closed-3411-d73a4a?style=flat-square" alt="closed 3411"/></a></td>
       </tr>
   <!-- contribution-log:rows:end -->
 </table>
