@@ -120,6 +120,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/open-webui/open-webui/pull/30043"><img src="https://img.shields.io/badge/merged-30043-2ea44f?style=flat-square" alt="merged 30043"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/processing/p5.js"><span>processing/</span><br><strong>p5.js</strong></a></td>
+        <td>修复 p5.strands 单参数箭头函数解析，解决 <a href="https://github.com/processing/p5.js/issues/9180">#9180</a>。</td>
+        <td><a href="https://github.com/processing/p5.js/pull/9188"><img src="https://img.shields.io/badge/merged-9188-2ea44f?style=flat-square" alt="merged 9188"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
         <td>控制台侧栏版本号一键源码更新，修 <a href="https://github.com/zhayujie/CowAgent/issues/3148">#3148</a>。</td>
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3154"><img src="https://img.shields.io/badge/merged-3154-2ea44f?style=flat-square" alt="merged 3154"/></a></td>
@@ -188,11 +193,6 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/open-webui/open-webui/pull/30123"><img src="https://img.shields.io/badge/review-30123-d4a72c?style=flat-square" alt="review 30123"/></a></td>
       </tr>
   <tr>
-        <td><a href="https://github.com/processing/p5.js"><span>processing/</span><br><strong>p5.js</strong></a></td>
-        <td>修复 p5.strands 单参数箭头函数解析，解决 <a href="https://github.com/processing/p5.js/issues/9180">#9180</a>。</td>
-        <td><a href="https://github.com/processing/p5.js/pull/9188"><img src="https://img.shields.io/badge/review-9188-d4a72c?style=flat-square" alt="review 9188"/></a></td>
-      </tr>
-  <tr>
         <td><a href="https://github.com/stablyai/orca"><span>stablyai/</span><br><strong>orca</strong></a></td>
         <td>Dashboard 别把还活着的 structured chat 当成死终端。</td>
         <td><a href="https://github.com/stablyai/orca/pull/20594"><img src="https://img.shields.io/badge/review-20594-d4a72c?style=flat-square" alt="review 20594"/></a></td>
@@ -201,6 +201,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/stablyai/orca"><span>stablyai/</span><br><strong>orca</strong></a></td>
         <td>修复 git username 探测超时时静默丢失前缀。</td>
         <td><a href="https://github.com/stablyai/orca/pull/21451"><img src="https://img.shields.io/badge/review-21451-d4a72c?style=flat-square" alt="review 21451"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(files): bind extracted knowledge images</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/3439"><img src="https://img.shields.io/badge/review-3439-d4a72c?style=flat-square" alt="review 3439"/></a></td>
       </tr>
   <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
