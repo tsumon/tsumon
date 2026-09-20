@@ -43,6 +43,15 @@ test("new external pull requests are included and ignored pull requests stay exc
         merged_at: null,
         html_url: "https://github.com/ignored/project/pull/9",
       },
+      {
+        owner: "closed",
+        repo: "project",
+        number: 8,
+        title: "closed contribution should not appear",
+        state: "closed",
+        merged_at: null,
+        html_url: "https://github.com/closed/project/pull/8",
+      },
     ],
     metadata,
   );
@@ -56,6 +65,7 @@ test("new external pull requests are included and ignored pull requests stay exc
   );
   assert.equal(entries[0].description, "修复 Alpha 问题。");
   assert.equal(entries[1].description, "add zeta support");
+  assert.equal(entries.some(({ owner }) => owner === "closed"), false);
 });
 
 test("rows are grouped by outcome and sorted by repository name", () => {
@@ -94,6 +104,7 @@ test("rows are grouped by outcome and sorted by repository name", () => {
   assert.match(html, /<td><a href="https:\/\/github\.com\/beta\/project"><span>beta\/<\/span><br><strong>project<\/strong><\/a><\/td>/);
   assert.ok(html.indexOf('href="https://github.com/beta/project"') < html.indexOf('href="https://github.com/alpha/project"'));
   assert.ok(html.indexOf('href="https://github.com/alpha/project"') < html.indexOf('href="https://github.com/zeta/project"'));
+  assert.doesNotMatch(html, /CLOSED|not merged/);
 });
 
 test("pull discovery searches authored PRs and skips PRs in the profile owner's repositories", async () => {

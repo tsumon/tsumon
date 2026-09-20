@@ -212,29 +212,6 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td>LLM 流式输出期间探测 steer inbox。</td>
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3190"><img src="https://img.shields.io/badge/review-3190-d4a72c?style=flat-square" alt="review 3190"/></a></td>
       </tr>
-  <tr>
-    <td colspan="3" align="center"><strong>CLOSED</strong> <sub>not merged</sub></td>
-  </tr>
-  <tr>
-        <td><a href="https://github.com/matplotlib/matplotlib"><span>matplotlib/</span><br><strong>matplotlib</strong></a></td>
-        <td>修复 x tick label baseline 对齐问题。</td>
-        <td><a href="https://github.com/matplotlib/matplotlib/pull/32355"><img src="https://img.shields.io/badge/closed-32355-d73a4a?style=flat-square" alt="closed 32355"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/matplotlib/matplotlib"><span>matplotlib/</span><br><strong>matplotlib</strong></a></td>
-        <td>修复空 X 与空 tick_labels 导致的 boxplot 异常。</td>
-        <td><a href="https://github.com/matplotlib/matplotlib/pull/32368"><img src="https://img.shields.io/badge/closed-32368-d73a4a?style=flat-square" alt="closed 32368"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/openai/openai-agents-python"><span>openai/</span><br><strong>openai-agents-python</strong></a></td>
-        <td>tracing 导出认 <code>OPENAI_TRACING_INGEST_ENDPOINT</code>。</td>
-        <td><a href="https://github.com/openai/openai-agents-python/pull/5013"><img src="https://img.shields.io/badge/closed-5013-d73a4a?style=flat-square" alt="closed 5013"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
-        <td>修复 taxonomy 文件夹 / 条目嵌入时忽略 BATCH_EMBED_SIZE。</td>
-        <td><a href="https://github.com/Tencent/WeKnora/pull/3411"><img src="https://img.shields.io/badge/closed-3411-d73a4a?style=flat-square" alt="closed 3411"/></a></td>
-      </tr>
   <!-- contribution-log:rows:end -->
 </table>
 

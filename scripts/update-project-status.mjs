@@ -8,11 +8,10 @@ const repositoryRoot = path.resolve(scriptDirectory, "..");
 const defaultReadmePath = path.join(repositoryRoot, "README.md");
 const defaultMetadataPath = path.join(scriptDirectory, "contribution-metadata.json");
 const defaultLogin = "tsumon";
-const statusOrder = { merged: 0, review: 1, closed: 2 };
+const statusOrder = { merged: 0, review: 1 };
 const statusLabels = {
   merged: ["MERGED", "landed upstream"],
   review: ["IN REVIEW", "awaiting maintainer review"],
-  closed: ["CLOSED", "not merged"],
 };
 
 function repositoryKey(pull) {
@@ -55,9 +54,9 @@ export function buildContributionEntries(pulls, metadata = {}) {
   return sortContributions(
     pulls
       .filter((pull) => !excluded.has(repositoryKey(pull)))
-      .map((pull) => {
-        const details = metadata.entries?.[repositoryKey(pull)] ?? {};
-        const htmlUrl = pull.html_url ?? `https://github.com/${pull.owner}/${pull.repo}/pull/${pull.number}`;
+    .map((pull) => {
+      const details = metadata.entries?.[repositoryKey(pull)] ?? {};
+      const htmlUrl = pull.html_url ?? `https://github.com/${pull.owner}/${pull.repo}/pull/${pull.number}`;
 
         return {
           ...pull,
@@ -66,7 +65,8 @@ export function buildContributionEntries(pulls, metadata = {}) {
           repositoryName: details.repositoryName ?? `${pull.owner}/${pull.repo}`,
           status: statusForPull(pull),
         };
-      }),
+      })
+      .filter((entry) => entry.status !== "closed"),
   );
 }
 
