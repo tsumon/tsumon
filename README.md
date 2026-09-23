@@ -193,6 +193,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/OpenHands/OpenHands/pull/17410"><img src="https://img.shields.io/badge/review-17410-d4a72c?style=flat-square" alt="review 17410"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/processing/p5.js"><span>processing/</span><br><strong>p5.js</strong></a></td>
+        <td>docs: 将 @tsumon 加入 p5.js 代码贡献者名单。</td>
+        <td><a href="https://github.com/processing/p5.js/pull/9196"><img src="https://img.shields.io/badge/review-9196-d4a72c?style=flat-square" alt="review 9196"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/stablyai/orca"><span>stablyai/</span><br><strong>orca</strong></a></td>
         <td>Dashboard 别把还活着的 structured chat 当成死终端。</td>
         <td><a href="https://github.com/stablyai/orca/pull/20594"><img src="https://img.shields.io/badge/review-20594-d4a72c?style=flat-square" alt="review 20594"/></a></td>

@@ -18,6 +18,22 @@ function repositoryKey(pull) {
   return `${pull.owner}/${pull.repo}#${pull.number}`;
 }
 
+function pullFromManualEntry(key, details = {}) {
+  const match = key.match(/^([^/]+)\/([^#]+)#(\d+)$/);
+  if (!match) throw new Error(`Invalid manual contribution key: ${key}`);
+
+  const [, owner, repo, number] = match;
+  return {
+    owner,
+    repo,
+    number: Number(number),
+    title: details.title ?? key,
+    state: details.state ?? "open",
+    merged_at: details.merged_at ?? null,
+    html_url: details.html_url ?? `https://github.com/${owner}/${repo}/pull/${number}`,
+  };
+}
+
 export function statusForPull(pull) {
   if (pull.merged_at || pull.mergedAt) return "merged";
   return pull.state === "open" ? "review" : "closed";
@@ -50,9 +66,13 @@ export function sortContributions(entries) {
 
 export function buildContributionEntries(pulls, metadata = {}) {
   const excluded = new Set(metadata.exclude ?? []);
+  const discovered = new Set(pulls.map(repositoryKey));
+  const manualPulls = Object.entries(metadata.manual ?? {})
+    .filter(([key]) => !discovered.has(key))
+    .map(([key, details]) => pullFromManualEntry(key, details));
 
   return sortContributions(
-    pulls
+    [...pulls, ...manualPulls]
       .filter((pull) => !excluded.has(repositoryKey(pull)))
     .map((pull) => {
       const details = metadata.entries?.[repositoryKey(pull)] ?? {};

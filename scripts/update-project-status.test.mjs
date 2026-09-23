@@ -68,6 +68,26 @@ test("new external pull requests are included and ignored pull requests stay exc
   assert.equal(entries.some(({ owner }) => owner === "closed"), false);
 });
 
+test("manual contribution entries are included even when GitHub search cannot discover them", () => {
+  const entries = buildContributionEntries([], {
+    manual: {
+      "processing/p5.js#9196": {
+        title: "docs: add tsumon as a contributor for code",
+        html_url: "https://github.com/processing/p5.js/pull/9196",
+      },
+    },
+    entries: {
+      "processing/p5.js#9196": {
+        description: "加入贡献者名单。",
+      },
+    },
+  });
+
+  assert.deepEqual(entries.map(({ owner, repo, number, status, description }) => ({ owner, repo, number, status, description })), [
+    { owner: "processing", repo: "p5.js", number: 9196, status: "review", description: "加入贡献者名单。" },
+  ]);
+});
+
 test("rows are grouped by outcome and sorted by repository name", () => {
   const html = renderContributionRows([
     {

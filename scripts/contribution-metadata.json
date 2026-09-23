@@ -5,6 +5,13 @@
     "open-webui/open-webui#30120",
     "open-webui/open-webui#30122"
   ],
+  "manual": {
+    "processing/p5.js#9196": {
+      "title": "docs: add tsumon as a contributor for code",
+      "html_url": "https://github.com/processing/p5.js/pull/9196",
+      "state": "open"
+    }
+  },
   "entries": {
     "zhayujie/CowAgent#3154": {
       "repositoryName": "zhayujie/CowAgent",
