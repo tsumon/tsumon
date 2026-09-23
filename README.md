@@ -203,9 +203,19 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/stablyai/orca/pull/21451"><img src="https://img.shields.io/badge/review-21451-d4a72c?style=flat-square" alt="review 21451"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(wiki): stop deleted tenants from scheduling generation</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/3595"><img src="https://img.shields.io/badge/review-3595-d4a72c?style=flat-square" alt="review 3595"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
         <td>Web / 桌面配置 MCP 和 skills，修 <a href="https://github.com/zhayujie/CowAgent/issues/3114">#3114</a>。</td>
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3155"><img src="https://img.shields.io/badge/review-3155-d4a72c?style=flat-square" alt="review 3155"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
+        <td>feat(docker): add optional Agent Mail compose profile</td>
+        <td><a href="https://github.com/zhayujie/CowAgent/pull/3236"><img src="https://img.shields.io/badge/review-3236-d4a72c?style=flat-square" alt="review 3236"/></a></td>
       </tr>
   <!-- contribution-log:rows:end -->
 </table>
