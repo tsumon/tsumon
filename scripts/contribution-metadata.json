@@ -42,6 +42,10 @@
       "repositoryName": "processing/p5.js",
       "description": "修复 p5.strands 单参数箭头函数解析，解决 <a href=\"https://github.com/processing/p5.js/issues/9180\">#9180</a>。"
     },
+    "processing/p5.js#9196": {
+      "repositoryName": "processing/p5.js",
+      "description": "docs: 将 @tsumon 加入 p5.js 代码贡献者名单。"
+    },
     "matplotlib/matplotlib#32355": {
       "repositoryName": "matplotlib/matplotlib",
       "description": "修复 x tick label baseline 对齐问题。"
