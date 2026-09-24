@@ -213,6 +213,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/Tencent/WeKnora/pull/3618"><img src="https://img.shields.io/badge/review-3618-d4a72c?style=flat-square" alt="review 3618"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(agent): preserve tool calls when merging consecutive assistant messages</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/3621"><img src="https://img.shields.io/badge/review-3621-d4a72c?style=flat-square" alt="review 3621"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
         <td>Web / 桌面配置 MCP 和 skills，修 <a href="https://github.com/zhayujie/CowAgent/issues/3114">#3114</a>。</td>
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3155"><img src="https://img.shields.io/badge/review-3155-d4a72c?style=flat-square" alt="review 3155"/></a></td>
