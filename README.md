@@ -115,6 +115,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
     <td colspan="3" align="center"><strong>MERGED</strong> <sub>landed upstream</sub></td>
   </tr>
   <tr>
+        <td><a href="https://github.com/OpenHands/OpenHands"><span>OpenHands/</span><br><strong>OpenHands</strong></a></td>
+        <td>README Node.js 版本与 engines.node 对齐。</td>
+        <td><a href="https://github.com/OpenHands/OpenHands/pull/17410"><img src="https://img.shields.io/badge/merged-17410-2ea44f?style=flat-square" alt="merged 17410"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/open-webui/open-webui"><span>open-webui/</span><br><strong>open-webui</strong></a></td>
         <td>简体中文 i18n 翻译改进。</td>
         <td><a href="https://github.com/open-webui/open-webui/pull/30043"><img src="https://img.shields.io/badge/merged-30043-2ea44f?style=flat-square" alt="merged 30043"/></a></td>
@@ -148,6 +153,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
     <td colspan="3" align="center"><strong>IN REVIEW</strong> <sub>awaiting maintainer review</sub></td>
   </tr>
   <tr>
+        <td><a href="https://github.com/1Panel-dev/MaxKB"><span>1Panel-dev/</span><br><strong>MaxKB</strong></a></td>
+        <td>fix: skip degraded tool record for workflow tools (#7053)</td>
+        <td><a href="https://github.com/1Panel-dev/MaxKB/pull/7182"><img src="https://img.shields.io/badge/review-7182-d4a72c?style=flat-square" alt="review 7182"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/666ghj/BettaFish"><span>666ghj/</span><br><strong>BettaFish</strong></a></td>
         <td>PDF 导出文件名防路径穿越。</td>
         <td><a href="https://github.com/666ghj/BettaFish/pull/718"><img src="https://img.shields.io/badge/review-718-d4a72c?style=flat-square" alt="review 718"/></a></td>
@@ -178,19 +188,9 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/huggingface/huggingface_hub/pull/4900"><img src="https://img.shields.io/badge/review-4900-d4a72c?style=flat-square" alt="review 4900"/></a></td>
       </tr>
   <tr>
-        <td><a href="https://github.com/openai/openai-agents-js"><span>openai/</span><br><strong>openai-agents-js</strong></a></td>
-        <td>流式 abort reconciliation 补齐 computer_call。</td>
-        <td><a href="https://github.com/openai/openai-agents-js/pull/1943"><img src="https://img.shields.io/badge/review-1943-d4a72c?style=flat-square" alt="review 1943"/></a></td>
-      </tr>
-  <tr>
         <td><a href="https://github.com/openclaw/openclaw"><span>openclaw/</span><br><strong>openclaw</strong></a></td>
         <td>握手时从客户端授予 markdownDetails，不再从 channel name 推断。</td>
         <td><a href="https://github.com/openclaw/openclaw/pull/151811"><img src="https://img.shields.io/badge/review-151811-d4a72c?style=flat-square" alt="review 151811"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/OpenHands/OpenHands"><span>OpenHands/</span><br><strong>OpenHands</strong></a></td>
-        <td>README Node.js 版本与 engines.node 对齐。</td>
-        <td><a href="https://github.com/OpenHands/OpenHands/pull/17410"><img src="https://img.shields.io/badge/review-17410-d4a72c?style=flat-square" alt="review 17410"/></a></td>
       </tr>
   <tr>
         <td><a href="https://github.com/processing/p5.js"><span>processing/</span><br><strong>p5.js</strong></a></td>
