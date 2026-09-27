@@ -136,6 +136,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
       </tr>
   <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
+        <td>Web / 桌面配置 MCP 和 skills，修 <a href="https://github.com/zhayujie/CowAgent/issues/3114">#3114</a>。</td>
+        <td><a href="https://github.com/zhayujie/CowAgent/pull/3155"><img src="https://img.shields.io/badge/merged-3155-2ea44f?style=flat-square" alt="merged 3155"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
         <td>钉钉收文件，交给 agent。</td>
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3161"><img src="https://img.shields.io/badge/merged-3161-2ea44f?style=flat-square" alt="merged 3161"/></a></td>
       </tr>
@@ -216,11 +221,6 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
         <td>fix(wiki): don&#39;t treat source lookup errors as deletion</td>
         <td><a href="https://github.com/Tencent/WeKnora/pull/3723"><img src="https://img.shields.io/badge/review-3723-d4a72c?style=flat-square" alt="review 3723"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
-        <td>Web / 桌面配置 MCP 和 skills，修 <a href="https://github.com/zhayujie/CowAgent/issues/3114">#3114</a>。</td>
-        <td><a href="https://github.com/zhayujie/CowAgent/pull/3155"><img src="https://img.shields.io/badge/review-3155-d4a72c?style=flat-square" alt="review 3155"/></a></td>
       </tr>
   <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
