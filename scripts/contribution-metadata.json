@@ -10,6 +10,11 @@
       "title": "docs: add tsumon as a contributor for code",
       "html_url": "https://github.com/processing/p5.js/pull/9196",
       "state": "open"
+    },
+    "Tencent/WeKnora#3807": {
+      "title": "fix(models): honor OpenRouter native thinking for legacy defaults",
+      "html_url": "https://github.com/Tencent/WeKnora/pull/3807",
+      "state": "open"
     }
   },
   "entries": {
@@ -88,6 +93,18 @@
     "Tencent/WeKnora#3411": {
       "repositoryName": "Tencent/WeKnora",
       "description": "修复 taxonomy 文件夹 / 条目嵌入时忽略 BATCH_EMBED_SIZE。"
+    },
+    "Tencent/WeKnora#3618": {
+      "repositoryName": "Tencent/WeKnora",
+      "description": "修复 Lite 启动时未加载 .env 配置，并保留 ENV_FILE 与进程变量优先级。"
+    },
+    "Tencent/WeKnora#3723": {
+      "repositoryName": "Tencent/WeKnora",
+      "description": "Wiki 源文档查询失败时保留待处理任务，交由重试机制恢复。"
+    },
+    "Tencent/WeKnora#3807": {
+      "repositoryName": "Tencent/WeKnora",
+      "description": "OpenRouter 旧版默认 thinking_control 不再覆盖原生 reasoning 设置。"
     },
     "open-webui/open-webui#30123": {
       "repositoryName": "open-webui/open-webui",
