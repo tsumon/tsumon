@@ -155,6 +155,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3190"><img src="https://img.shields.io/badge/merged-3190-2ea44f?style=flat-square" alt="merged 3190"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
+        <td>feat(docker): add optional Agent Mail compose profile</td>
+        <td><a href="https://github.com/zhayujie/CowAgent/pull/3236"><img src="https://img.shields.io/badge/merged-3236-2ea44f?style=flat-square" alt="merged 3236"/></a></td>
+      </tr>
+  <tr>
     <td colspan="3" align="center"><strong>IN REVIEW</strong> <sub>awaiting maintainer review</sub></td>
   </tr>
   <tr>
@@ -226,16 +231,6 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
         <td>OpenRouter 旧版默认 thinking_control 不再覆盖原生 reasoning 设置。</td>
         <td><a href="https://github.com/Tencent/WeKnora/pull/3807"><img src="https://img.shields.io/badge/review-3807-d4a72c?style=flat-square" alt="review 3807"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
-        <td>Web / 桌面配置 MCP 和 skills，修 <a href="https://github.com/zhayujie/CowAgent/issues/3114">#3114</a>。</td>
-        <td><a href="https://github.com/zhayujie/CowAgent/pull/3155"><img src="https://img.shields.io/badge/review-3155-d4a72c?style=flat-square" alt="review 3155"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
-        <td>feat(docker): add optional Agent Mail compose profile</td>
-        <td><a href="https://github.com/zhayujie/CowAgent/pull/3236"><img src="https://img.shields.io/badge/review-3236-d4a72c?style=flat-square" alt="review 3236"/></a></td>
       </tr>
   <!-- contribution-log:rows:end -->
 </table>
