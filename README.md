@@ -198,11 +198,6 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td><a href="https://github.com/huggingface/huggingface_hub/pull/4900"><img src="https://img.shields.io/badge/review-4900-d4a72c?style=flat-square" alt="review 4900"/></a></td>
       </tr>
   <tr>
-        <td><a href="https://github.com/openclaw/openclaw"><span>openclaw/</span><br><strong>openclaw</strong></a></td>
-        <td>握手时从客户端授予 markdownDetails，不再从 channel name 推断。</td>
-        <td><a href="https://github.com/openclaw/openclaw/pull/151811"><img src="https://img.shields.io/badge/review-151811-d4a72c?style=flat-square" alt="review 151811"/></a></td>
-      </tr>
-  <tr>
         <td><a href="https://github.com/processing/p5.js"><span>processing/</span><br><strong>p5.js</strong></a></td>
         <td>docs: 将 @tsumon 加入 p5.js 代码贡献者名单。</td>
         <td><a href="https://github.com/processing/p5.js/pull/9196"><img src="https://img.shields.io/badge/review-9196-d4a72c?style=flat-square" alt="review 9196"/></a></td>
