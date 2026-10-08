@@ -10,11 +10,6 @@
       "title": "docs: add tsumon as a contributor for code",
       "html_url": "https://github.com/processing/p5.js/pull/9196",
       "state": "open"
-    },
-    "Tencent/WeKnora#3807": {
-      "title": "fix(models): honor OpenRouter native thinking for legacy defaults",
-      "html_url": "https://github.com/Tencent/WeKnora/pull/3807",
-      "state": "open"
     }
   },
   "entries": {
