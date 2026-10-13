@@ -227,6 +227,11 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
         <td>修复 Lite 启动时未加载 .env 配置，并保留 ENV_FILE 与进程变量优先级。</td>
         <td><a href="https://github.com/Tencent/WeKnora/pull/3618"><img src="https://img.shields.io/badge/review-3618-d4a72c?style=flat-square" alt="review 3618"/></a></td>
       </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(skills): explain unfederated skills.sh imports</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/4196"><img src="https://img.shields.io/badge/review-4196-d4a72c?style=flat-square" alt="review 4196"/></a></td>
+      </tr>
   <!-- contribution-log:rows:end -->
 </table>
 
