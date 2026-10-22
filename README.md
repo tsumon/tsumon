@@ -26,9 +26,9 @@ I build agent workflows, retrieval tools, and local-first apps. I care about wha
       <p><sub>Go · React · SQLite<br />Source alpha · macOS arm64</sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/tsumon/eduforge-education-projects">EduForge</a></h3>
-      <p>Education agents, retrieval tools, and a documented LoRA experiment. Source code and reproducible reports.</p>
-      <p><sub>Python · LangGraph · FastAPI<br />Experiments · local trials</sub></p>
+      <h3><a href="https://github.com/tsumon/skill-mcp">skill-mcp</a></h3>
+      <p>A local MCP server that selects skills within a token budget. Keep useful instructions close and context small.</p>
+      <p><sub>TypeScript · MCP · local stdio<br />Up to three SKILL.md skills per selection</sub></p>
     </td>
   </tr>
   <tr>
@@ -47,19 +47,21 @@ I build agent workflows, retrieval tools, and local-first apps. I care about wha
 
 ### Smaller tools, deeper notes
 
-- **[skill-mcp](https://github.com/tsumon/skill-mcp)** — a local MCP server for selecting skills within a token budget.
 - **[Suite](https://github.com/tsumon/suite)** / **[StreamDock](https://github.com/tsumon/StreamDock)** — a Windows tray utility and an Emby reverse-proxy panel.
 - **[看得见的大模型](https://tsumon.github.io)** — an illustrated, hands-on guide to LLMs, written in Chinese.
 
 ## Upstream contributions
 
-Selected changes merged into the projects I use:
+Projects where my contributions have been merged upstream, with merged PRs linked for each project. The full history is preserved below.
 
 | Project | Merged work |
 | :--- | :--- |
 | **[WeKnora](https://github.com/Tencent/WeKnora)** | Preserve native OpenRouter reasoning settings when legacy defaults are present. [#3807](https://github.com/Tencent/WeKnora/pull/3807) |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | MCP and skill configuration in web / desktop consoles [#3155](https://github.com/zhayujie/CowAgent/pull/3155); optional Agent Mail Docker Compose profile [#3236](https://github.com/zhayujie/CowAgent/pull/3236). |
 | **[MaxKB](https://github.com/1Panel-dev/MaxKB)** | Skip degraded tool records for workflow tools. [#7182](https://github.com/1Panel-dev/MaxKB/pull/7182) |
+| **[OpenHands](https://github.com/OpenHands/OpenHands)** | Align the README's Node.js requirement with the package configuration. [#17410](https://github.com/OpenHands/OpenHands/pull/17410) |
+| **[Open WebUI](https://github.com/open-webui/open-webui)** | Improve Simplified Chinese translations. [#30043](https://github.com/open-webui/open-webui/pull/30043) |
+| **[p5.js](https://github.com/processing/p5.js)** | Parse p5.strands callback parameters and bodies from the AST. [#9188](https://github.com/processing/p5.js/pull/9188) |
 
 <details>
 <summary><strong>Full contribution log</strong> · merged &amp; in review · updated daily</summary>
