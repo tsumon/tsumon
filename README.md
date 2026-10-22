@@ -1,9 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg" />
-  <img src="./assets/hero-light.svg" width="100%" alt="tsumon：写能跑的东西。给开源修能合的洞。" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-dark.svg" />
+  <img src="./assets/profile-light.svg" width="100%" alt="tsumon — AI engineering and local-first software" />
 </picture>
-
-<h1 align="center">tsumon</h1>
 
 <p align="center">
   <strong>Build useful systems. Leave clean diffs.</strong><br />
@@ -11,98 +9,62 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/tsumon?tab=repositories"><img src="https://img.shields.io/badge/AI%20engineering-111827?style=flat-square&logo=openai&logoColor=white" alt="AI engineering" /></a>
-  <a href="https://github.com/tsumon/agentflow"><img src="https://img.shields.io/badge/agent%20systems-0f766e?style=flat-square&logo=probot&logoColor=white" alt="agent systems" /></a>
-  <a href="https://github.com/tsumon/skill-mcp"><img src="https://img.shields.io/badge/MCP%20%2B%20RAG-0f766e?style=flat-square&logo=databricks&logoColor=white" alt="MCP and RAG" /></a>
-  <a href="https://github.com/tsumon?tab=stars"><img src="https://img.shields.io/badge/open%20source-166534?style=flat-square&logo=github&logoColor=white" alt="open source" /></a>
+  <a href="#selected-work">Projects</a> ·
+  <a href="#upstream-contributions">Contributions</a> ·
+  <a href="https://tsumon.github.io">Illustrated LLM guide ↗</a>
 </p>
 
+I build agent workflows, retrieval tools, and local-first apps. I care about what happens after the demo: explicit controls, reproducible experiments, and changes that can be reviewed.
+
+## Selected work
+
 <table width="100%">
   <tr>
-    <td width="55%" valign="top">
-      <strong>What I work on</strong><br />
-      Agent workflows, developer tools, local-first utilities and the awkward edges between a model and a real product.
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tsumon/foundry">Foundry</a></h3>
+      <p>A local software-delivery workbench. Review a plan, approve execution, and inspect a local patch before applying it.</p>
+      <p><sub>Go · React · SQLite<br />Source alpha · macOS arm64</sub></p>
     </td>
-    <td width="45%" valign="top">
-      <strong>How I contribute</strong><br />
-      Small, reviewable changes that fix an actual problem and can survive CI, code review and daily use.
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tsumon/eduforge-education-projects">EduForge</a></h3>
+      <p>Education agents, retrieval tools, and a documented LoRA experiment. Source code and reproducible reports.</p>
+      <p><sub>Python · LangGraph · FastAPI<br />Experiments · local trials</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tsumon/understanding-lab">Understanding Lab</a></h3>
+      <p>Learn AI by testing your understanding: explain a concept, run a reproducible experiment, then explain it again.</p>
+      <p><sub>TypeScript · bilingual · local-first<br />Early preview</sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tsumon/reminder-app-ios">Reminder · 循环提醒</a></h3>
+      <p>Recurring reminders that move to the next cycle only after confirmation. Native apps with local storage.</p>
+      <p><sub>SwiftUI · Kotlin / Compose<br /><a href="https://github.com/tsumon/reminder-app-ios">iOS source ↗</a> · <a href="https://github.com/tsumon/reminder-app-android">Android source ↗</a></sub></p>
     </td>
   </tr>
 </table>
 
-<br />
+### Smaller tools, deeper notes
 
-<h2 align="center">Featured work</h2>
+- **[skill-mcp](https://github.com/tsumon/skill-mcp)** — a local MCP server for selecting skills within a token budget.
+- **[Suite](https://github.com/tsumon/suite)** / **[StreamDock](https://github.com/tsumon/StreamDock)** — a Windows tray utility and an Emby reverse-proxy panel.
+- **[看得见的大模型](https://tsumon.github.io)** — an illustrated, hands-on guide to LLMs, written in Chinese.
 
-<div align="center">
-  <h3><a href="https://tsumon.github.io">看得见的大模型</a></h3>
-  <p><strong>把大模型讲到能看懂，也讲到能动手。</strong><br />工程铺地，数学捡石，模型走路。</p>
-  <p>
-    <a href="https://tsumon.github.io">
-      <img src="https://img.shields.io/badge/-%E7%9C%8B%E5%BE%97%E8%A7%81%E7%9A%84%E5%A4%A7%E6%A8%A1%E5%9E%8B-159A9C?style=flat-square&logo=markdown&logoColor=white" alt="看得见的大模型" height="46" />
-    </a>
-  </p>
-  <p><a href="https://tsumon.github.io">进入图解书 →</a></p>
-</div>
+## Upstream contributions
 
-<br />
+Selected changes merged into the projects I use:
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake.svg" />
-  <img src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
-</picture>
+| Project | Merged work |
+| :--- | :--- |
+| **[WeKnora](https://github.com/Tencent/WeKnora)** | Preserve native OpenRouter reasoning settings when legacy defaults are present. [#3807](https://github.com/Tencent/WeKnora/pull/3807) |
+| **[CowAgent](https://github.com/zhayujie/CowAgent)** | MCP and skill configuration in web / desktop consoles [#3155](https://github.com/zhayujie/CowAgent/pull/3155); optional Agent Mail Docker Compose profile [#3236](https://github.com/zhayujie/CowAgent/pull/3236). |
+| **[MaxKB](https://github.com/1Panel-dev/MaxKB)** | Skip degraded tool records for workflow tools. [#7182](https://github.com/1Panel-dev/MaxKB/pull/7182) |
 
-<h2 align="center">Selected projects</h2>
+<details>
+<summary><strong>Full contribution log</strong> · merged &amp; in review · updated daily</summary>
 
-These are the things I keep close: small enough to understand, useful enough to keep improving.
-
-<table width="100%">
-  <tr>
-    <th width="260">Project</th>
-    <th width="610">What it does</th>
-    <th width="180">Stars</th>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/tsumon/reminder-app-ios">循环提醒</a><br /><a href="https://github.com/tsumon/reminder-app-android">iOS · Android</a></td>
-    <td>到期确认才进下一周期；没确认就 1h→4h→12h→24h 再响。</td>
-    <td><img src="https://img.shields.io/github/stars/tsumon/reminder-app-ios?style=flat-square&label=stars" alt="reminder-app-ios stars" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/tsumon/suite">Suite</a></td>
-    <td>Windows 托盘：F1 截图、任务栏网速、透明和深浅色。</td>
-    <td><img src="https://img.shields.io/github/stars/tsumon/suite?style=flat-square&label=stars" alt="suite stars" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/tsumon/StreamDock">StreamDock</a></td>
-    <td>单二进制 Emby 反代面板。明文导入导出，独立流量页。</td>
-    <td><img src="https://img.shields.io/github/stars/tsumon/StreamDock?style=flat-square&label=stars" alt="StreamDock stars" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/tsumon/skill-mcp">skill-mcp</a></td>
-    <td>本地 stdio MCP。最多绑 3 个 <code>SKILL.md</code>，token 预算加不了名额。</td>
-    <td><img src="https://img.shields.io/github/stars/tsumon/skill-mcp?style=flat-square&label=stars" alt="skill-mcp stars" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/tsumon/auto-cs-agent-sft-dpo">汽车售后客服</a></td>
-    <td>Qwen2.5-7B 的 SFT + DPO。真正能上线的是推理期约束层。</td>
-    <td><img src="https://img.shields.io/github/stars/tsumon/auto-cs-agent-sft-dpo?style=flat-square&label=stars" alt="auto-cs-agent-sft-dpo stars" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://github.com/tsumon/agentflow">AgentFlow</a></td>
-    <td>Plan → Execute → Review。三个 agent 按序办事。</td>
-    <td><img src="https://img.shields.io/github/stars/tsumon/agentflow?style=flat-square&label=stars" alt="agentflow stars" /></td>
-  </tr>
-  <tr>
-    <td><a href="https://tsumon.github.io">看得见的大模型</a></td>
-    <td>图解书。工程铺地，数学捡石，模型走路。</td>
-    <td><img src="https://img.shields.io/github/stars/tsumon/tsumon.github.io?style=flat-square&label=stars" alt="tsumon.github.io stars" /></td>
-  </tr>
-</table>
-
-<h2 align="center">Open-source contribution log</h2>
-
-Real issues, real review queues, real CI. Entries are discovered from my external GitHub PRs and sorted by outcome, then repository name. Status badges are synced from GitHub every day.
+External PRs, grouped by outcome and repository. Statuses are synced from GitHub; open PRs are not presented as merged contributions.
 
 <table width="100%">
   <tr>
@@ -240,25 +202,17 @@ Real issues, real review queues, real CI. Entries are discovered from my externa
   <!-- contribution-log:rows:end -->
 </table>
 
-<h2 align="center">Current direction</h2>
+</details>
 
-<table width="100%">
-  <tr>
-    <td width="260"><strong>Agent harness</strong></td>
-    <td width="800">让 Plan → Execute → Review 变成可以观察、可以重试、可以交付的流程。</td>
-  </tr>
-  <tr>
-    <td width="260"><strong>RAG / MCP</strong></td>
-    <td width="800">把上下文、工具和 token 预算放回工程约束，而不是只停留在 demo。</td>
-  </tr>
-  <tr>
-    <td width="260"><strong>Product edges</strong></td>
-    <td width="800">智能客服、舆情分析、桌面工具，以及模型真正接触用户之后暴露出来的问题。</td>
-  </tr>
-</table>
+---
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/tsumon/tsumon/output/github-contribution-grid-snake.svg" width="100%" alt="A snake tracing my GitHub contribution grid" />
+</picture>
 
 <p align="center">
-  <a href="https://github.com/tsumon?tab=repositories">repositories</a>
-  · <a href="https://tsumon.github.io">看得见的大模型</a>
-  · <a href="https://github.com/tsumon/tsumon/issues">say hello</a>
+  <a href="https://github.com/tsumon?tab=repositories">All repositories</a>
+  · <a href="https://tsumon.github.io">Read the guide</a>
+  · <a href="https://github.com/tsumon/tsumon/issues">Say hello</a>
 </p>
