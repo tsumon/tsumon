@@ -7,7 +7,7 @@
 
 <p align="center">
   <strong>Build useful systems. Leave clean diffs.</strong><br />
-  写能跑的东西，给开源修能合的洞。
+  写一些能跑的东西。
 </p>
 
 <p align="center">
