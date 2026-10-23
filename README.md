@@ -201,6 +201,11 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td>fix(kb-delete): give wiki cleanup its own longer timeout budget</td>
         <td><a href="https://github.com/Tencent/WeKnora/pull/4292"><img src="https://img.shields.io/badge/review-4292-d4a72c?style=flat-square" alt="review 4292"/></a></td>
       </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(knowledge): add missing POST /knowledge-bases/:id/rebuild-index route</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/4621"><img src="https://img.shields.io/badge/review-4621-d4a72c?style=flat-square" alt="review 4621"/></a></td>
+      </tr>
   <!-- contribution-log:rows:end -->
 </table>
 
