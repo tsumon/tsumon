@@ -100,8 +100,28 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
       </tr>
   <tr>
         <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>修复 Lite 启动时未加载 .env 配置，并保留 ENV_FILE 与进程变量优先级。</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/3618"><img src="https://img.shields.io/badge/merged-3618-2ea44f?style=flat-square" alt="merged 3618"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
         <td>OpenRouter 旧版默认 thinking_control 不再覆盖原生 reasoning 设置。</td>
         <td><a href="https://github.com/Tencent/WeKnora/pull/3807"><img src="https://img.shields.io/badge/merged-3807-2ea44f?style=flat-square" alt="merged 3807"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(skills): explain unfederated skills.sh imports</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/4196"><img src="https://img.shields.io/badge/merged-4196-2ea44f?style=flat-square" alt="merged 4196"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(kb-delete): give wiki cleanup its own longer timeout budget</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/4292"><img src="https://img.shields.io/badge/merged-4292-2ea44f?style=flat-square" alt="merged 4292"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(knowledge): add missing POST /knowledge-bases/:id/rebuild-index route</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/4621"><img src="https://img.shields.io/badge/merged-4621-2ea44f?style=flat-square" alt="merged 4621"/></a></td>
       </tr>
   <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
@@ -185,26 +205,6 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td><a href="https://github.com/stablyai/orca"><span>stablyai/</span><br><strong>orca</strong></a></td>
         <td>修复 git username 探测超时时静默丢失前缀。</td>
         <td><a href="https://github.com/stablyai/orca/pull/21451"><img src="https://img.shields.io/badge/review-21451-d4a72c?style=flat-square" alt="review 21451"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
-        <td>修复 Lite 启动时未加载 .env 配置，并保留 ENV_FILE 与进程变量优先级。</td>
-        <td><a href="https://github.com/Tencent/WeKnora/pull/3618"><img src="https://img.shields.io/badge/review-3618-d4a72c?style=flat-square" alt="review 3618"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
-        <td>fix(skills): explain unfederated skills.sh imports</td>
-        <td><a href="https://github.com/Tencent/WeKnora/pull/4196"><img src="https://img.shields.io/badge/review-4196-d4a72c?style=flat-square" alt="review 4196"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
-        <td>fix(kb-delete): give wiki cleanup its own longer timeout budget</td>
-        <td><a href="https://github.com/Tencent/WeKnora/pull/4292"><img src="https://img.shields.io/badge/review-4292-d4a72c?style=flat-square" alt="review 4292"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
-        <td>fix(knowledge): add missing POST /knowledge-bases/:id/rebuild-index route</td>
-        <td><a href="https://github.com/Tencent/WeKnora/pull/4621"><img src="https://img.shields.io/badge/review-4621-d4a72c?style=flat-square" alt="review 4621"/></a></td>
       </tr>
   <!-- contribution-log:rows:end -->
 </table>
