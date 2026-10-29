@@ -192,6 +192,11 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td><a href="https://github.com/huggingface/huggingface_hub/pull/4900"><img src="https://img.shields.io/badge/review-4900-d4a72c?style=flat-square" alt="review 4900"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/infiniflow/ragflow"><span>infiniflow/</span><br><strong>ragflow</strong></a></td>
+        <td>fix(chunk): do not let split fallback re-emit chunks a postprocess filter dropped</td>
+        <td><a href="https://github.com/infiniflow/ragflow/pull/21632"><img src="https://img.shields.io/badge/review-21632-d4a72c?style=flat-square" alt="review 21632"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/processing/p5.js"><span>processing/</span><br><strong>p5.js</strong></a></td>
         <td>docs: 将 @tsumon 加入 p5.js 代码贡献者名单。</td>
         <td><a href="https://github.com/processing/p5.js/pull/9196"><img src="https://img.shields.io/badge/review-9196-d4a72c?style=flat-square" alt="review 9196"/></a></td>
