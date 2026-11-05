@@ -22,20 +22,20 @@ I build agent workflows, retrieval tools, and local-first apps. I care about wha
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tsumon/foundry">Foundry</a></h3>
-      <p>A local software-delivery workbench. Review a plan, approve execution, and inspect a local patch before applying it.</p>
-      <p><sub>Go · React · SQLite<br />Source alpha · macOS arm64</sub></p>
+      <p>A local software-delivery workbench. Approve a plan, test isolated changes, and export reviewable patches and reports.</p>
+      <p><sub>Go · React · SQLite<br />v0.2.2 · macOS Apple Silicon · Windows x64<br /><a href="https://github.com/tsumon/foundry/releases/tag/v0.2.2">Downloads ↗</a> · <a href="https://github.com/tsumon/foundry/blob/main/docs/public/desktop-guide.md">Desktop guide ↗</a></sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tsumon/skill-mcp">skill-mcp</a></h3>
       <p>A local MCP server that selects skills within a token budget. Keep useful instructions close and context small.</p>
-      <p><sub>TypeScript · MCP · local stdio<br />Up to three SKILL.md skills per selection</sub></p>
+      <p><sub>TypeScript · MCP · local stdio<br />Up to three SKILL.md skills per selection<br /><a href="https://github.com/tsumon/skill-mcp/releases/tag/v0.2.0">v0.2.0 release ↗</a></sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tsumon/understanding-lab">Understanding Lab</a></h3>
-      <p>Learn AI by testing your understanding: explain a concept, run a reproducible experiment, then explain it again.</p>
-      <p><sub>TypeScript · bilingual · local-first<br />Early preview</sub></p>
+      <p>A 12-chapter bilingual AI course. Make predictions, explore deterministic experiments, and keep learning progress in your browser.</p>
+      <p><sub>TypeScript · bilingual · local-first<br />v0.2.0 static course · no account or API key<br /><a href="https://github.com/tsumon/understanding-lab/releases/tag/v0.2.0">Download course ↗</a> · <a href="https://github.com/tsumon/understanding-lab/blob/codex/understanding-lab-mvp/docs/getting-started.md">Getting started ↗</a></sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tsumon/reminder-app-ios">Reminder · 循环提醒</a></h3>
@@ -221,5 +221,5 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
 <p align="center">
   <a href="https://github.com/tsumon?tab=repositories">All repositories</a>
   · <a href="https://tsumon.github.io">Read the guide</a>
-  · <a href="https://github.com/tsumon/tsumon/issues">Say hello</a>
+  · <a href="https://github.com/tsumon/tsumon">Profile source</a>
 </p>
