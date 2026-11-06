@@ -198,11 +198,6 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
       </tr>
   <tr>
         <td><a href="https://github.com/stablyai/orca"><span>stablyai/</span><br><strong>orca</strong></a></td>
-        <td>Dashboard 别把还活着的 structured chat 当成死终端。</td>
-        <td><a href="https://github.com/stablyai/orca/pull/20594"><img src="https://img.shields.io/badge/review-20594-d4a72c?style=flat-square" alt="review 20594"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/stablyai/orca"><span>stablyai/</span><br><strong>orca</strong></a></td>
         <td>修复 git username 探测超时时静默丢失前缀。</td>
         <td><a href="https://github.com/stablyai/orca/pull/21451"><img src="https://img.shields.io/badge/review-21451-d4a72c?style=flat-square" alt="review 21451"/></a></td>
       </tr>
