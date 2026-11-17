@@ -206,6 +206,11 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td>修复 git username 探测超时时静默丢失前缀。</td>
         <td><a href="https://github.com/stablyai/orca/pull/21451"><img src="https://img.shields.io/badge/review-21451-d4a72c?style=flat-square" alt="review 21451"/></a></td>
       </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(docparser): bound PaddleOCR-VL Cloud submit upload with the configured timeout</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/5595"><img src="https://img.shields.io/badge/review-5595-d4a72c?style=flat-square" alt="review 5595"/></a></td>
+      </tr>
   <!-- contribution-log:rows:end -->
 </table>
 
