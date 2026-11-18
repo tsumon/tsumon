@@ -211,6 +211,11 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td>fix(docparser): bound PaddleOCR-VL Cloud submit upload with the configured timeout</td>
         <td><a href="https://github.com/Tencent/WeKnora/pull/5595"><img src="https://img.shields.io/badge/review-5595-d4a72c?style=flat-square" alt="review 5595"/></a></td>
       </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(sourceloc): keep one displaced unit from orphaning later source locators</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/5621"><img src="https://img.shields.io/badge/review-5621-d4a72c?style=flat-square" alt="review 5621"/></a></td>
+      </tr>
   <!-- contribution-log:rows:end -->
 </table>
 
