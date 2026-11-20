@@ -84,6 +84,11 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td><a href="https://github.com/1Panel-dev/MaxKB/pull/7182"><img src="https://img.shields.io/badge/merged-7182-2ea44f?style=flat-square" alt="merged 7182"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/infiniflow/ragflow"><span>infiniflow/</span><br><strong>ragflow</strong></a></td>
+        <td>fix(engine): pass ef to Infinity MatchDense so HNSW recall is not capped at topN</td>
+        <td><a href="https://github.com/infiniflow/ragflow/pull/22215"><img src="https://img.shields.io/badge/merged-22215-2ea44f?style=flat-square" alt="merged 22215"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/OpenHands/OpenHands"><span>OpenHands/</span><br><strong>OpenHands</strong></a></td>
         <td>README Node.js 版本与 engines.node 对齐。</td>
         <td><a href="https://github.com/OpenHands/OpenHands/pull/17410"><img src="https://img.shields.io/badge/merged-17410-2ea44f?style=flat-square" alt="merged 17410"/></a></td>
@@ -192,19 +197,9 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td><a href="https://github.com/infiniflow/ragflow/pull/21632"><img src="https://img.shields.io/badge/review-21632-d4a72c?style=flat-square" alt="review 21632"/></a></td>
       </tr>
   <tr>
-        <td><a href="https://github.com/infiniflow/ragflow"><span>infiniflow/</span><br><strong>ragflow</strong></a></td>
-        <td>fix(engine): pass ef to Infinity MatchDense so HNSW recall is not capped at topN</td>
-        <td><a href="https://github.com/infiniflow/ragflow/pull/22215"><img src="https://img.shields.io/badge/review-22215-d4a72c?style=flat-square" alt="review 22215"/></a></td>
-      </tr>
-  <tr>
         <td><a href="https://github.com/processing/p5.js"><span>processing/</span><br><strong>p5.js</strong></a></td>
         <td>docs: 将 @tsumon 加入 p5.js 代码贡献者名单。</td>
         <td><a href="https://github.com/processing/p5.js/pull/9196"><img src="https://img.shields.io/badge/review-9196-d4a72c?style=flat-square" alt="review 9196"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/stablyai/orca"><span>stablyai/</span><br><strong>orca</strong></a></td>
-        <td>修复 git username 探测超时时静默丢失前缀。</td>
-        <td><a href="https://github.com/stablyai/orca/pull/21451"><img src="https://img.shields.io/badge/review-21451-d4a72c?style=flat-square" alt="review 21451"/></a></td>
       </tr>
   <tr>
         <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
@@ -215,6 +210,21 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
         <td>fix(sourceloc): keep one displaced unit from orphaning later source locators</td>
         <td><a href="https://github.com/Tencent/WeKnora/pull/5621"><img src="https://img.shields.io/badge/review-5621-d4a72c?style=flat-square" alt="review 5621"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(wiki): get-or-create wiki pages in batch ingest to survive slug races</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/5660"><img src="https://img.shields.io/badge/review-5660-d4a72c?style=flat-square" alt="review 5660"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(data-analysis): stop materializing knowledge file after cancellation</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/5672"><img src="https://img.shields.io/badge/review-5672-d4a72c?style=flat-square" alt="review 5672"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(gitlab): import newly selected paths when commit is unchanged</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/5718"><img src="https://img.shields.io/badge/review-5718-d4a72c?style=flat-square" alt="review 5718"/></a></td>
       </tr>
   <!-- contribution-log:rows:end -->
 </table>
