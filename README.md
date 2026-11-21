@@ -129,6 +129,11 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td><a href="https://github.com/Tencent/WeKnora/pull/4621"><img src="https://img.shields.io/badge/merged-4621-2ea44f?style=flat-square" alt="merged 4621"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(gitlab): import newly selected paths when commit is unchanged</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/5718"><img src="https://img.shields.io/badge/merged-5718-2ea44f?style=flat-square" alt="merged 5718"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/zhayujie/CowAgent"><span>zhayujie/</span><br><strong>CowAgent</strong></a></td>
         <td>控制台侧栏版本号一键源码更新，修 <a href="https://github.com/zhayujie/CowAgent/issues/3148">#3148</a>。</td>
         <td><a href="https://github.com/zhayujie/CowAgent/pull/3154"><img src="https://img.shields.io/badge/merged-3154-2ea44f?style=flat-square" alt="merged 3154"/></a></td>
@@ -197,6 +202,11 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td><a href="https://github.com/infiniflow/ragflow/pull/21632"><img src="https://img.shields.io/badge/review-21632-d4a72c?style=flat-square" alt="review 21632"/></a></td>
       </tr>
   <tr>
+        <td><a href="https://github.com/infiniflow/ragflow"><span>infiniflow/</span><br><strong>ragflow</strong></a></td>
+        <td>fix(auth): base64-decode RSA-decrypted passwords so SPA login works</td>
+        <td><a href="https://github.com/infiniflow/ragflow/pull/22613"><img src="https://img.shields.io/badge/review-22613-d4a72c?style=flat-square" alt="review 22613"/></a></td>
+      </tr>
+  <tr>
         <td><a href="https://github.com/processing/p5.js"><span>processing/</span><br><strong>p5.js</strong></a></td>
         <td>docs: 将 @tsumon 加入 p5.js 代码贡献者名单。</td>
         <td><a href="https://github.com/processing/p5.js/pull/9196"><img src="https://img.shields.io/badge/review-9196-d4a72c?style=flat-square" alt="review 9196"/></a></td>
@@ -220,11 +230,6 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
         <td>fix(data-analysis): stop materializing knowledge file after cancellation</td>
         <td><a href="https://github.com/Tencent/WeKnora/pull/5672"><img src="https://img.shields.io/badge/review-5672-d4a72c?style=flat-square" alt="review 5672"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
-        <td>fix(gitlab): import newly selected paths when commit is unchanged</td>
-        <td><a href="https://github.com/Tencent/WeKnora/pull/5718"><img src="https://img.shields.io/badge/review-5718-d4a72c?style=flat-square" alt="review 5718"/></a></td>
       </tr>
   <!-- contribution-log:rows:end -->
 </table>
