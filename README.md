@@ -10,6 +10,8 @@
 
 <p align="center">
   <a href="#selected-work">Projects</a> ·
+  <a href="https://tsumon.github.io/code-atlas-skill/">Code Atlas Demo ↗</a> ·
+  <a href="https://tsumon.github.io/understanding-lab/">Understanding Lab ↗</a> ·
   <a href="#upstream-contributions">Contributions</a> ·
   <a href="https://tsumon.github.io">Illustrated LLM guide ↗</a>
 </p>
@@ -21,26 +23,38 @@ I build agent workflows, retrieval tools, and local-first apps. I care about wha
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/tsumon/foundry">Foundry</a></h3>
-      <p>A local software-delivery workbench. Approve a plan, test isolated changes, and export reviewable patches and reports.</p>
-      <p><sub>Go · React · SQLite<br />v0.2.2 · macOS Apple Silicon · Windows x64<br /><a href="https://github.com/tsumon/foundry/releases/tag/v0.2.2">Downloads ↗</a> · <a href="https://github.com/tsumon/foundry/blob/main/docs/public/desktop-guide.md">Desktop guide ↗</a></sub></p>
+      <h3><a href="https://github.com/tsumon/code-atlas-skill">Code Atlas Skill</a></h3>
+      <p>Agent Skill (<code>SKILL.md</code>) that turns any codebase into a zero-dependency, single-file interactive source-code &amp; architecture atlas with grounded file/line checks.</p>
+      <p><sub>Agent Skill · SVG Atlas · Python<br />Multi-file chains · Port spreading · SVG/Markdown export<br /><a href="https://tsumon.github.io/code-atlas-skill/">Live WeKnora Demo ↗</a> · <a href="https://github.com/tsumon/code-atlas-skill">Repository ↗</a></sub></p>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/tsumon/skill-mcp">skill-mcp</a></h3>
-      <p>A local MCP server that selects skills within a token budget. Keep useful instructions close and context small.</p>
-      <p><sub>TypeScript · MCP · local stdio<br />Up to three SKILL.md skills per selection<br /><a href="https://github.com/tsumon/skill-mcp/releases/tag/v0.2.0">v0.2.0 release ↗</a></sub></p>
+      <h3><a href="https://github.com/tsumon/understanding-lab">Understanding Lab</a></h3>
+      <p>A 12-chapter bilingual AI &amp; ML course. Make predictions, run deterministic experiments, and keep learning progress locally in your browser.</p>
+      <p><sub>TypeScript · React · bilingual · local-first<br />Zero login · no API key · works offline<br /><a href="https://tsumon.github.io/understanding-lab/">Open Live Course ↗</a> · <a href="https://github.com/tsumon/understanding-lab/releases/tag/v0.2.0">Offline v0.2.0 ↗</a></sub></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/tsumon/understanding-lab">Understanding Lab</a></h3>
-      <p>A 12-chapter bilingual AI course. Make predictions, explore deterministic experiments, and keep learning progress in your browser.</p>
-      <p><sub>TypeScript · bilingual · local-first<br />v0.2.0 static course · no account or API key<br /><a href="https://github.com/tsumon/understanding-lab/releases/tag/v0.2.0">Download course ↗</a> · <a href="https://github.com/tsumon/understanding-lab/blob/codex/understanding-lab-mvp/docs/getting-started.md">Getting started ↗</a></sub></p>
+      <h3><a href="https://github.com/tsumon/foundry">Foundry</a></h3>
+      <p>A local-first software delivery workbench. Approve a plan, verify in an isolated sandbox, and export reviewable patches and reports.</p>
+      <p><sub>Go · React · SQLite<br />v0.4.0 · macOS Apple Silicon · Windows x64<br /><a href="https://github.com/tsumon/foundry/releases/tag/v0.4.0">Downloads (v0.4.0) ↗</a> · <a href="https://github.com/tsumon/foundry/blob/main/docs/public/desktop-guide.md">Desktop guide ↗</a></sub></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tsumon/tenant-rag">tenant-rag</a></h3>
+      <p>Multi-tenant hybrid retrieval (vector + FTS5) — from a zero-dependency single-file SQLite core to physical-isolation enterprise RAG.</p>
+      <p><sub>Python · SQLite FTS5 · React 19<br />v0.6.0 · 0 core runtime deps · logical &amp; physical WAL isolation<br /><a href="https://github.com/tsumon/tenant-rag/releases/tag/v0.6.0">v0.6.0 release ↗</a> · <a href="https://github.com/tsumon/tenant-rag/blob/main/README.zh-CN.md">简体中文 ↗</a></sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/tsumon/skill-mcp">skill-mcp</a></h3>
+      <p>A local stdio MCP server that picks at most 3 <code>SKILL.md</code> skills within a token budget and enforces a host contract.</p>
+      <p><sub>TypeScript · MCP · local stdio<br />Hard cap of 3 skills · keeps agent context small<br /><a href="https://github.com/tsumon/skill-mcp/releases/tag/v0.2.0">v0.2.0 release ↗</a></sub></p>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/tsumon/reminder-app-ios">Reminder · 循环提醒</a></h3>
-      <p>Recurring reminders that move to the next cycle only after confirmation. Native apps with local storage.</p>
-      <p><sub>SwiftUI · Kotlin / Compose<br /><a href="https://github.com/tsumon/reminder-app-ios">iOS source ↗</a> · <a href="https://github.com/tsumon/reminder-app-android">Android source ↗</a></sub></p>
+      <p>Recurring reminders with escalating alerts that only advance to the next cycle after explicit confirmation.</p>
+      <p><sub>SwiftUI · Kotlin / Jetpack Compose · local storage<br /><a href="https://github.com/tsumon/reminder-app-ios">iOS source ↗</a> · <a href="https://github.com/tsumon/reminder-app-android">Android source ↗</a></sub></p>
     </td>
   </tr>
 </table>
