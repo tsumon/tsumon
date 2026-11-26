@@ -144,6 +144,16 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
       </tr>
   <tr>
         <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(sourceloc): keep one displaced unit from orphaning later source locators</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/5621"><img src="https://img.shields.io/badge/merged-5621-2ea44f?style=flat-square" alt="merged 5621"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
+        <td>fix(wiki): get-or-create wiki pages in batch ingest to survive slug races</td>
+        <td><a href="https://github.com/Tencent/WeKnora/pull/5660"><img src="https://img.shields.io/badge/merged-5660-2ea44f?style=flat-square" alt="merged 5660"/></a></td>
+      </tr>
+  <tr>
+        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
         <td>fix(gitlab): import newly selected paths when commit is unchanged</td>
         <td><a href="https://github.com/Tencent/WeKnora/pull/5718"><img src="https://img.shields.io/badge/merged-5718-2ea44f?style=flat-square" alt="merged 5718"/></a></td>
       </tr>
@@ -229,16 +239,6 @@ External PRs, grouped by outcome and repository. Statuses are synced from GitHub
         <td><a href="https://github.com/stablyai/orca"><span>stablyai/</span><br><strong>orca</strong></a></td>
         <td>修复 git username 探测超时时静默丢失前缀。</td>
         <td><a href="https://github.com/stablyai/orca/pull/21451"><img src="https://img.shields.io/badge/review-21451-d4a72c?style=flat-square" alt="review 21451"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
-        <td>fix(sourceloc): keep one displaced unit from orphaning later source locators</td>
-        <td><a href="https://github.com/Tencent/WeKnora/pull/5621"><img src="https://img.shields.io/badge/review-5621-d4a72c?style=flat-square" alt="review 5621"/></a></td>
-      </tr>
-  <tr>
-        <td><a href="https://github.com/Tencent/WeKnora"><span>Tencent/</span><br><strong>WeKnora</strong></a></td>
-        <td>fix(wiki): get-or-create wiki pages in batch ingest to survive slug races</td>
-        <td><a href="https://github.com/Tencent/WeKnora/pull/5660"><img src="https://img.shields.io/badge/review-5660-d4a72c?style=flat-square" alt="review 5660"/></a></td>
       </tr>
   <!-- contribution-log:rows:end -->
 </table>
