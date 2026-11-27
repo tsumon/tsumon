@@ -70,7 +70,8 @@ Projects where my contributions have been merged upstream, with merged PRs linke
 
 | Project | Merged work |
 | :--- | :--- |
-| **[WeKnora](https://github.com/Tencent/WeKnora)** | Preserve native OpenRouter reasoning settings when legacy defaults are present. [#3807](https://github.com/Tencent/WeKnora/pull/3807) |
+| **[WeKnora](https://github.com/Tencent/WeKnora)** | Import newly selected GitLab paths during incremental sync [#5718](https://github.com/Tencent/WeKnora/pull/5718); preserve native OpenRouter reasoning settings when legacy defaults are present [#3807](https://github.com/Tencent/WeKnora/pull/3807). |
+| **[RAGFlow](https://github.com/infiniflow/ragflow)** | Pass HNSW search breadth to the Infinity backend for dense retrieval. [#22215](https://github.com/infiniflow/ragflow/pull/22215) |
 | **[CowAgent](https://github.com/zhayujie/CowAgent)** | MCP and skill configuration in web / desktop consoles [#3155](https://github.com/zhayujie/CowAgent/pull/3155); optional Agent Mail Docker Compose profile [#3236](https://github.com/zhayujie/CowAgent/pull/3236). |
 | **[MaxKB](https://github.com/1Panel-dev/MaxKB)** | Skip degraded tool records for workflow tools. [#7182](https://github.com/1Panel-dev/MaxKB/pull/7182) |
 | **[OpenHands](https://github.com/OpenHands/OpenHands)** | Align the README's Node.js requirement with the package configuration. [#17410](https://github.com/OpenHands/OpenHands/pull/17410) |
